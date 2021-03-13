@@ -1,0 +1,24 @@
+
+state={
+	id=817
+	name="STATE_817"
+
+	history={
+		owner = DMI
+		add_core_of = DMI
+		buildings = {
+			infrastructure = 4
+			
+			7123 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		7123
+	}
+	manpower=62528
+	buildings_max_level_factor=1.000
+	state_category=town
+}

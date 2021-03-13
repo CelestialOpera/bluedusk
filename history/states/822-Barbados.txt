@@ -1,0 +1,24 @@
+
+state={
+	id=822
+	name="STATE_822"
+
+	history={
+		owner = BAR
+		add_core_of = BAR
+		buildings = {
+			infrastructure = 4
+			
+			11350 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		11350
+	}
+	manpower=261905
+	buildings_max_level_factor=1.000
+	state_category=town
+}

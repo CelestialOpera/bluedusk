@@ -1,0 +1,21 @@
+
+state={
+	id=813
+	name="STATE_813"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		13238 13239
+	}
+	manpower=182241
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

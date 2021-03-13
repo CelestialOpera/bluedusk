@@ -1,0 +1,21 @@
+
+state={
+	id=830
+	name="STATE_830"
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+
+	provinces={
+		13247
+	}
+	manpower=20123
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

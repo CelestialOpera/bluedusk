@@ -1,0 +1,27 @@
+
+state={
+	id=815
+	name="STATE_815"
+
+	history={
+		owner = SIN
+		add_core_of = SIN
+		buildings = {
+			infrastructure = 4
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+			}
+		}
+		victory_points = {
+			12299 25
+		}
+	}
+
+	provinces={
+		12299
+	}
+	manpower=3135242
+	buildings_max_level_factor=1.000
+	state_category=city
+}

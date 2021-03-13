@@ -1,0 +1,22 @@
+
+state={
+	id=812
+	name="STATE_812"
+
+	history={
+		owner = BHR
+		add_core_of = BHR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
+
+	}
+
+	provinces={
+		13237
+	}
+	manpower=509760
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=833
+	name="STATE_833"
+
+	history={
+		owner = VAU
+		add_core_of = VAU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			
+			12120 = {
+				naval_base = 3
+			}
+			4247 = {
+				naval_base = 3
+			}
+			4231 = {
+				naval_base = 1
+			}
+			1237 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12120 10
+		}
+	}
+
+	provinces={
+		1237 4231 4247 12120
+	}
+	manpower=150716
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

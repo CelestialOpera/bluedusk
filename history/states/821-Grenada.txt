@@ -1,0 +1,24 @@
+
+state={
+	id=821
+	name="STATE_821"
+
+	history={
+		owner = GRN
+		add_core_of = GRN
+		buildings = {
+			infrastructure = 4
+			
+			11106 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		11106
+	}
+	manpower=96460
+	buildings_max_level_factor=1.000
+	state_category=town
+}

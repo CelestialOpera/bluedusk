@@ -1,0 +1,23 @@
+
+state={
+	id=832
+	name="STATE_832"
+
+	history={
+		owner = TON
+		add_core_of = TON
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			13248 = { naval_base = 1 }
+			13249 = { naval_base = 1 }
+		}
+	}
+
+	provinces={
+		13248 13249
+	}
+	manpower=20123
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}
