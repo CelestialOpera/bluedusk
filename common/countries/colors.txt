@@ -56,9 +56,9 @@ LAT = {
 	color = rgb { 75 77 186 }
 	color_ui = rgb { 124 125 184 }
 }
-SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+SPR = { #DONE
+	color = rgb { 251 197 59 }
+	color_ui = rgb { 251 197 59 }
 }
 ITA = { #DONE
 	color = rgb { 55 161 77 }

@@ -97,32 +97,32 @@ if = {
 }
 
 set_politics = {
-	ruling_party = progressive
+	ruling_party = social_liberal
 	last_election = "1990.5.4"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ultranationalist = 4
+	ultranationalist = 7
 	national_bolshevik = 1
 	reactionary_nationalist = 3
-	national_conservative = 17
-	moderate_conservative = 13
-	centrist = 21
-	social_liberal = 9
-	progressive = 15
-	moderate_socialist = 7
-	reformed_communist = 1
-	revolutionary_socialist = 4
-	communist = 5
+	national_conservative = 4
+	moderate_conservative = 20
+	centrist = 6
+	social_liberal = 23
+	progressive = 14
+	moderate_socialist = 10
+	reformed_communist = 11
+	revolutionary_socialist = 0
+	communist = 1
 }
 
 create_country_leader = {
-	name = "Raphael Lopez"
-	desc = "POLITICS_NEIL_KINNOCK_DESC"
-	picture = "Neil_Kinnock.dds"
+	name = "Miquel Roca"
+	desc = "POLITICS_MIQUEL_ROCA_DESC"
+	picture = "Miquel_Roca.dds"
 	expire = "1965.1.1"
-	ideology = progressive_ideology
+	ideology = social_liberal_ideology
 	traits = {
 		
 	}
