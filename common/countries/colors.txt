@@ -84,9 +84,9 @@ GRE = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 121 235 255 }
 }
-ALB = {
-	color = rgb { 149 45 102 }
-	color_ui = rgb { 194 59 133 }
+ALB = { #DONE
+	color = rgb { 196 40 14 }
+	color_ui = rgb { 196 40 14 }
 }
 NOR = {
 	color = rgb { 111 71 71 }
@@ -100,9 +100,9 @@ BUL = {
 	color = rgb { 51 155 0 }
 	color_ui = rgb { 210 147 217 }
 }
-POR = {
-	color = rgb { 39 116 70 }
-	color_ui = rgb { 51 151 91 }
+POR = { #DONE
+	color = rgb { 25 101 17 }
+	color_ui = rgb { 25 101 17 }
 }
 FIN = {
 	color = rgb { 205 212 228 }
