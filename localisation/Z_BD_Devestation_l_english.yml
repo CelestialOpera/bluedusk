@@ -1,0 +1,21 @@
+﻿l_english:
+ 
+ #Country Name
+ devestation.1.t:0 "World Leaders Arrive In NYC"
+ devestation.1.d:0 "On a chilly december day in New York City, leaders from around the world are gathering at the headquarters of the United Nations in New York City. With the draft on the World Peace Charter completed, the only thing remaining until its passage is the signatures of the members of the United Nations. Putting strict limits on the sizes of the militaries of the world, as well as empowering the UN 'Blue Helmets' to preserve peace, it is hoped that the Charter will help firmly putting the horrors of war behind humanity. Although the vast majority of world leaders are willing to participate, the process has been denounced as an 'Imperialist Subjugation' of the third world by 'First World Imperialists' by North Korean President Kim Il-Sung, a criticism that has been echoed by a few other leaders, like Iraq's Saddam Hussein and Zimbabwe's Robert Mugabe. Nevertheless, support for the Charter is high, with all major powers attending the ceremony."
+ devestation.1.o1:0 "One step closer to ending the horrors of war"
+ 
+ devestation.2.t:0 "World Peace Summit Begins"
+ devestation.2.d:0 "With the arrival of the remaining attending world leaders, the Summit for World Peace has begun. Beginning with a speech by the recently elected UN General Secretary Boutros Boutros-Ghali, which praised the leaders of the world for coming together and taking this monumental step towards the elimination of war and conflict, his speech being met with wide applause from the gathered world leaders. Anticipation is high, with celebrations breaking out across the world. Following the speech is the signing of the charter itself, which will be signed by US and Soviet Presidents Jerry Brown and Mikhail Gorbachev simultaneously to symbolise the end of the Cold War, followed by the remaining attendees ordered alphabetically."
+ devestation.2.o1:0 "Peace in our time, for all time!"
+ devestation.2.o2:0 "Bah, Humbug!"
+ 
+ devestation.3.t:0 "Contact Lost With New York City"
+ devestation.3.d:0 "As Presidents Jerry Brown and Mikhail Gorbachev were shaking their hands in front of the cameras before the signing, the broadcast was suddenly cut short. All around the world, TV screens and radios cut to black, soon replaced by confused anchors and hosts. Any attempts at reconnecting with their crews in the United Nations building were met with failure, with only an eerie static filling the other end of the line..."
+ devestation.3.o1:0 "The silence is deafening"
+ 
+ devestation.4.t:0 "New York City Obliterated in Nuclear Attack"
+ devestation.4.d:0 "Minutes after contact was lost with New York City, reports began to filter in from surrounding areas in New Jersey and Yonkers of a large mushroom cloud rising above the city. American authorities were quick to respond, confirming that upper Manhattan had been obliterated in a nuclear attack. Reports indicate upwards of a million people have died in the attack, with upwards of a one and a half million people being injured. Included in this death toll is the vast majority of world leaders, as the nuclear weapon detonated just next to the United Nations Headquarters themselves, vapourising the building. The World Peace summit has come to a terrible end, as the world is left wondering just who could have carried out this terrible attack."
+ devestation.4.o1:0 "What happens now...?"
+ 
+ 

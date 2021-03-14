@@ -1,0 +1,203 @@
+add_namespace = devestation
+
+### Arrival In NYC
+news_event = {
+	id = devestation.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event devestation.1" }
+	title = devestation.1.t
+	desc = devestation.1.d
+	picture = news_arriving_new_york
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	major = yes
+	#show_major = {
+	#	NOT = {
+	#		tag = GEA
+	#		tag = MAF
+	#		tag = GER
+	#	}
+	#}
+
+	option = {
+		trigger = {
+			is_ai = no
+		}
+		name = devestation.1.o1
+		
+		hidden_effect = {
+			news_event = {
+				id = devestation.2
+			}
+		
+		}
+	}
+	
+	option = {
+		trigger = {
+			is_ai = yes
+		}
+		name = devestation.1.o1
+	}
+}
+
+#World Summit Begins
+news_event = {
+	id = devestation.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event devestation.2" }
+	title = devestation.2.t
+	desc = devestation.2.d
+	picture = news_world_summit_begins
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	major = yes
+	#show_major = {
+	#	NOT = {
+	#		tag = GEA
+	#		tag = MAF
+	#		tag = GER
+	#	}
+	#}
+
+	option = {
+		trigger = {
+			is_ai = no
+			is_rogue_nation = no
+		}
+		name = devestation.2.o1
+		
+		hidden_effect = {
+			news_event = {
+				id = devestation.3
+			}
+		
+		}
+	}
+	
+	option = {
+		trigger = {
+			is_ai = yes
+			is_rogue_nation = yes
+		}
+		name = devestation.2.o1
+	}
+	
+	option = {
+		trigger = {
+			is_ai = no
+			is_rogue_nation = yes
+		}
+		name = devestation.2.o2
+		
+		hidden_effect = {
+			news_event = {
+				id = devestation.3
+			}
+		
+		}
+	}
+	
+	option = {
+		trigger = {
+			is_ai = yes
+			is_rogue_nation = yes
+		}
+		name = devestation.2.o2
+	}
+}
+
+### Radio Silence From NYC
+news_event = {
+	id = devestation.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event devestation.3" }
+	title = devestation.3.t
+	desc = devestation.3.d
+	picture = news_radio_silence
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	major = yes
+	#show_major = {
+	#	NOT = {
+	#		tag = GEA
+	#		tag = MAF
+	#		tag = GER
+	#	}
+	#}
+
+	option = {
+		trigger = {
+			is_ai = no
+		}
+		name = devestation.3.o1
+		
+		hidden_effect = {
+			news_event = {
+				id = devestation.4
+			}
+		
+		}
+	}
+	
+	option = {
+		trigger = {
+			is_ai = yes
+		}
+		name = devestation.3.o1
+	}
+}
+
+### New York City Obliterated in Nuclear Attack
+news_event = {
+	id = devestation.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event devestation.4" }
+	title = devestation.4.t
+	desc = devestation.4.d
+	picture = news_devestation
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			launch_nuke = {
+				province = 3878
+				use_nuke = yes
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	major = yes
+	#show_major = {
+	#	NOT = {
+	#		tag = GEA
+	#		tag = MAF
+	#		tag = GER
+	#	}
+	#}
+
+	option = {
+		trigger = {
+			is_ai = no
+		}
+		name = devestation.4.o1
+		
+		#hidden_effect = {
+		#	news_event = {
+		#		id = devestation.4
+		#	}
+		#
+		#}
+	}
+	
+	option = {
+		trigger = {
+			is_ai = yes
+		}
+		name = devestation.4.o1
+	}
+}

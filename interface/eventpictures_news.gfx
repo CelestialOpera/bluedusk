@@ -19,5 +19,25 @@ spriteTypes = {
 		name = "news_war_in_britain"
 		texturefile = "gfx/event_pictures/news_event/war_in_britain.dds"
 	}
+	
+	spriteType = {
+		name = "news_arriving_new_york"
+		texturefile = "gfx/event_pictures/news_event/arriving_new_york.dds"
+	}
+	
+	spriteType = {
+		name = "news_world_summit_begins"
+		texturefile = "gfx/event_pictures/news_event/world_summit_begins.dds"
+	}
+	
+	spriteType = {
+		name = "news_radio_silence"
+		texturefile = "gfx/event_pictures/news_event/radio_silence.dds"
+	}
+	
+	spriteType = {
+		name = "news_devestation"
+		texturefile = "gfx/event_pictures/news_event/devestation.dds"
+	}
 
 }

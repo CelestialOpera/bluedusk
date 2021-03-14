@@ -116,9 +116,9 @@ HUN = {
 	color = rgb { 249 126 98 }
 	color_ui = rgb { 255 164 127 }
 }
-AFG = {
-	color = rgb { 64 160 167 }
-	color_ui = rgb { 83 208 217 }
+AFG = { #DONE
+	color = rgb { 98 143 86 }
+	color_ui = rgb { 98 143 86 }
 }
 ARG = {
 	color = rgb { 145 157 236 }
@@ -212,9 +212,9 @@ PAN = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
-PER = {
-	color = rgb { 71 113 97 }
-	color_ui = rgb { 92 147 126 }
+PER = { #DONE
+	color = rgb { 89 170 49 }
+	color_ui = rgb { 89 170 49 }
 }
 PHI = {
 	color = rgb { 152 130 191 }
@@ -289,13 +289,13 @@ HAI = {
 	color = rgb { 174 113 113 }
 	color_ui = rgb { 174 113 113 }
 }
-YEM = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+YEM = { #DONE
+	color = rgb { 136 64 16 }
+	color_ui = rgb { 136 64 16 }
 }
-OMA = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+OMA = { #DONE
+	color = rgb { 219 22 27 }
+	color_ui = rgb { 219 22 27 }
 }
 SLO = {
 	color = rgb { 158  161  188 }
@@ -331,9 +331,9 @@ XSM = {
 	color_ui = rgb { 105 90 132 }
 }
 
-LBA = {
-	color = rgb { 200 180 90 }
-	color_ui = rgb { 200 180 90 }
+LBA = { #DONE
+	color = rgb { 16 133 68 }
+	color_ui = rgb { 16 133 68 }
 }
 
 EGY = { #DONE
@@ -351,9 +351,9 @@ LEB = { #DONE
 	color_ui = rgb { 194  165  31 }
 }
 
-JOR = {
-	color = rgb { 111  55  78 }
-	color_ui = rgb { 111  55  78 }
+JOR = { #DONE
+	color = rgb { 54  174  29 }
+	color_ui = rgb { 54  174  29 }
 }
 
 SYR = { #DONE
@@ -442,19 +442,19 @@ MZB = {
 	color = rgb { 112 62 90 }
 	color_ui = rgb { 112 62 90 }
 }
-KEN = {
-	color = rgb { 145 103 14 }
-	color_ui = rgb { 145 103 14 }
+KEN = { #DONE
+	color = rgb { 182 24 8 }
+	color_ui = rgb { 182 24 8 }
 }
-ZIM = {
-	color = rgb { 7 7 239 }
-	color_ui = rgb { 7 7 239 }
+ZIM = { #DONE
+	color = rgb { 57 150 62 }
+	color_ui = rgb { 57 150 62 }
 }
-BOT = {
-	color = rgb { 11 132 112 }
-	color_ui = rgb { 11 132 112 }
+BOT = { #DONE
+	color = rgb { 109 169 210 }
+	color_ui = rgb { 109 169 210 }
 }
-PAK = {
+PAK = { #DONE
 	color = rgb { 21 98 0 }
 	color_ui = rgb { 21 98 0 }
 }
@@ -557,6 +557,18 @@ MAR = { #DONE
 MAU = { #DONE
 	color = rgb { 255 150 15 }
 	color_ui = rgb { 255 150 15 }
+}
+SUD = { #DONE
+	color = rgb { 91 100 0 }
+	color_ui = rgb { 91 100 0 }
+}
+TUN = { #DONE
+	color = rgb { 151 60 50 }
+	color_ui = rgb { 151 60 50 }
+}
+MLT = { #DONE
+	color = rgb { 191 98 145 }
+	color_ui = rgb { 191 98 145 }
 }
 D01 = {
 	color = rgb { 122 179 97 }

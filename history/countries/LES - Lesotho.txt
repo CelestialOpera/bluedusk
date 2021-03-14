@@ -97,22 +97,33 @@ if = {
 }
 
 set_politics = {
-	ruling_party = progressive
+	ruling_party = reactionary_nationalist
 	last_election = "1990.5.4"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ultranationalist = 4
-	national_bolshevik = 1
-	reactionary_nationalist = 3
-	national_conservative = 17
-	moderate_conservative = 13
-	centrist = 21
-	social_liberal = 9
-	progressive = 15
-	moderate_socialist = 7
+	ultranationalist = 1
+	national_bolshevik = 0
+	reactionary_nationalist = 19
+	national_conservative = 4
+	moderate_conservative = 16
+	centrist = 17
+	social_liberal = 15
+	progressive = 18
+	moderate_socialist = 2
 	reformed_communist = 1
-	revolutionary_socialist = 4
-	communist = 5
+	revolutionary_socialist = 3
+	communist = 4
+}
+
+create_country_leader = {
+	name = "Justin Lekhanya"
+	desc = "POLITICS_JUSTIN_LEKHANYA_DESC"
+	picture = "Justin_Lekhanya.dds"
+	expire = "1965.1.1"
+	ideology = reactionary_nationalist_ideology
+	traits = {
+		
+	}
 }

@@ -1,0 +1,24 @@
+
+state={
+	id=839
+	name="STATE_839"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			7558 5 
+		}
+	}
+
+	provinces={
+		801 3941 3975 4627 6850 6958 6971 7466 7558 7646 9923 10441 11888
+	}
+	manpower= 1798443
+	buildings_max_level_factor=1.000
+	state_category=town
+}

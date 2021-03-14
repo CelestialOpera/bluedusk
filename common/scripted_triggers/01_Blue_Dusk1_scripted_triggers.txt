@@ -1,0 +1,9 @@
+is_rogue_nation = {
+	custom_trigger_tooltip = {
+		tooltip = rogue_nation
+		OR = {
+			has_country_flag = we_are_rogue_nation
+			
+		}
+	}
+}

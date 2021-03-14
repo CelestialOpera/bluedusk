@@ -1,0 +1,24 @@
+
+state={
+	id=837
+	name="STATE_837"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+			
+		}
+		victory_points = {
+			9850 5 
+		}
+	}
+
+	provinces={
+		6909 9847 9850
+	}
+	manpower= 3289214
+	buildings_max_level_factor=1.000
+	state_category=city
+}

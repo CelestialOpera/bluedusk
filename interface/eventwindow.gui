@@ -111,7 +111,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "EventWindow_News"
 		position = { x=-282 y=-310 }	
-		size = { width = 528 height = 595 }
+		size = { width = 528 height = 883 }
 		moveable = yes
 		Orientation = CENTER
 		show_sound = world_news_effect
@@ -132,18 +132,17 @@ guiTypes = {
 			{
 				name ="event_picture"
 				spriteType = "GFX_news_event_001"
-				position = { x = 58 y = 92 }
+				position = { x = 59 y = 91 }
 				Orientation = "UPPER_LEFT"
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			
-			iconType =
-			{
+			iconType = {
 				name ="event_picture_overlay"
 				spriteType = "GFX_event_news_pic_overlay"
 				position = { x = 59 y = 91 }
 				Orientation = "UPPER_LEFT"
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}			
 			
 			instantTextBoxType = {
@@ -155,6 +154,13 @@ guiTypes = {
 				maxWidth = 460
 				maxHeight = 32
 				format = centre
+			}
+			
+			buttonType = {
+				name = "btn_minimize"
+				position = {x=10 y=20}
+				spriteType = "GFX_event_button_minimize"
+				clicksound = click_default
 			}
 		}
 
@@ -183,19 +189,14 @@ guiTypes = {
 			size = { width = 581 height = 405 }
 			Orientation = UPPER_LEFT
 
-#background = {
-#				name = "Background"	
-#				spriteType ="GFX_event_report_bottom_win"
-#			}
-
 			gridBoxType = {
 				name = "options_grid"
-				position = { x = 80 y = -1 }
-				size = { width = 300 height = 30 }
+				position = { x = 80 y = 95 }
+				size = { width = 300 height = 550 }
 				slotsize = { width = 300 height = 47 }
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
-			}		
+			}
 		}
 	}
 	

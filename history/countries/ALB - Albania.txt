@@ -116,13 +116,14 @@ set_popularities = {
 	revolutionary_socialist = 1
 	communist = 7
 }
+#Ilir Hoxha to be NatBol
 
 create_country_leader = {
-	name = "Ilir Hoxha"
-	desc = "POLITICS_ILIR_HOXHA_DESC"
-	picture = "Ilir_Hoxha.dds"
+	name = "Sokol Hoxha"
+	desc = "POLITICS_SOKOL_HOXHA_DESC"
+	picture = "Sokol_Hoxha.dds"
 	expire = "1965.1.1"
-	ideology = progressive_ideology
+	ideology = reformed_communist_ideology
 	traits = {
 		
 	}
