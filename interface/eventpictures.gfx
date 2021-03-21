@@ -50,4 +50,9 @@ spriteTypes = {
 		name = "report_british_civil_war"
 		texturefile = "gfx/event_pictures/report_event/british_civil_war.dds"
 	}
+	
+	spriteType = {
+		name = "report_Anatoly_Lukyanov_Ascends"
+		texturefile = "gfx/event_pictures/report_event/Anatoly_Lukyanov_Ascends.dds"
+	}
 }

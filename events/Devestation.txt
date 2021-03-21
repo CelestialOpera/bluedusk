@@ -186,12 +186,13 @@ news_event = {
 		}
 		name = devestation.4.o1
 		
-		#hidden_effect = {
-		#	news_event = {
-		#		id = devestation.4
-		#	}
-		#
-		#}
+		hidden_effect = {
+			country_event = {
+				id = soviet.1
+				days = 1
+			}
+		
+		}
 	}
 	
 	option = {

@@ -38,3 +38,36 @@
  SOV_communist_DEF:0 "The Union of Soviet Socialist Republics"
  SOV_communist_adj:0 "Soviet"
  
+ ##Parties
+ SOV_ultranationalist_party:0 "NPF-Pamyat"
+ SOV_ultranationalist_party_long:0 "Natsionalno-patrioticheskiy front 'Pamyat' - National Patriotic Front 'Memory'"
+ SOV_national_bolshevik_party:0 "NatBols"
+ SOV_national_bolshevik_party_long:0 "Natsional'no-patrioticheskaya-natsional-bol'shevistskaya partiya - National Patriotic-National Bolshevik Party"
+ SOV_reactionary_nationalist_party:0 "Liberal Democrats"
+ SOV_reactionary_nationalist_party_long:0 "Liberal'no-demokraticheskaya Partiya sovetskogo Soyuza - Liberal Democratic Party of the Soviet Union"
+ SOV_national_conservative_party:0 "DS-Right Wing"
+ SOV_national_conservative_party_long:0 "Demokraticheskiy Soyuz(Pravoye Krylo) - Democratic Union(Right Wing)"
+ SOV_moderate_conservative_party:0 "DS-ChristDems"
+ SOV_moderate_conservative_party_long:0 "Demokraticheskiy Soyuz(Khristianskiye Demokraty) - Democratic Union(Christian Democrats)"
+ SOV_centrist_party:0 "DS-Liberals"
+ SOV_centrist_party_long:0 "Demokraticheskiy Soyuz(Liberaly) - Democratic Union(Liberals)"
+ SOV_social_liberal_party:0 "DS-Left Wing"
+ SOV_social_liberal_party_long:0 "Demokraticheskiy Soyuz(Levoye Krylo) - Democratic Union(Left Wing)"
+ SOV_progressive_party:0 "KPSS-Liberals"
+ SOV_progressive_party_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza(Liberaly) - Communist Party of the Soviet Union(Liberals)"
+ SOV_moderate_socialist_party:0 "KPSS-Reformists"
+ SOV_moderate_socialist_party_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza(Reformisty) - Communist Party of the Soviet Union(Reformist)"
+ SOV_reformed_communist_party:0 "KPSS-Moderates"
+ SOV_reformed_communist_party_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza(Umerennyy) - Communist Party of the Soviet Union(Moderate)"
+ SOV_revolutionary_socialist_party:0 "KPSS-Trotskyists"
+ SOV_revolutionary_socialist_party_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza(Trotskist) - Communist Party of the Soviet Union(Trotskyist)"
+ SOV_communist_party:0 "KPSS-Hardliners"
+ SOV_communist_party_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza(Storonnik Zhestkoy Linii) - Communist Party of the Soviet Union(Hardliners)"
+ 
+ ###Events
+ 
+ soviet.1.t:0 "Anatoly Lukyanov Ascends to the Presidency"
+ soviet.1.d:0 "With the death of President Mikhail Gorbachev and Vice President Gennady Yanayev in New York City, alongside Foreign Minister Eduard Shevardnadze and Alexander Yakovlev, the Soviet Union has been thrown into turmoil. With both the President and Vice President perished, the Presidency now falls to the Chairman of the Supreme Soviet, Anatoly Lukyanov. While Lukyanov has pledged to faithfully maintain and execute the duties of his office until the constitutionally mandated general election in February, uncertainty is widespread. Lukyanov has few allies in the Communist Party of the Soviet Union, and already many candidates from both the Left and Right wings of the party are making their moves to become the party's nominee. Meanwhile, many across the Union fear that the hard-won accomplishments of the Gorbachev administration will be reversed now that he is no longer here. Protests are already spreading in the streets, as the previously subdued separatists are returning to protest any "communist reversals", real or imagined. Anatoly Lukyanov may just be acting president, but tough times face the Soviet Union."
+ soviet.1.o1:0 "Hopefully the election can end this chaos"
+ 
+ 

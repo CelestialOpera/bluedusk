@@ -81,6 +81,10 @@ if = {
 	}
 }
 
+create_faction = warsaw_pact
+add_to_faction = SOV
+add_to_faction = POL
+
 set_convoys = 50
 
 set_politics = {

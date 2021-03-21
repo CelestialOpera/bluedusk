@@ -136,9 +136,9 @@ BOL = {
 	color = hsv { 0.1 0.47 0.8 } #255 180 136
 	color_ui = rgb { 255 234 177 }
 }
-BRA = {
-	color = rgb { 76 145 63 }
-	color_ui = rgb { 99 189 82 }
+BRA = { #DONE
+	color = rgb { 27 154 63 }
+	color_ui = rgb { 27 154 63 }
 }
 CAN = { #DONE
 	color = rgb { 201  55  53 }
@@ -569,6 +569,10 @@ TUN = { #DONE
 MLT = { #DONE
 	color = rgb { 191 98 145 }
 	color_ui = rgb { 191 98 145 }
+}
+NGA = { #DONE
+	color = rgb { 75 128 97 }
+	color_ui = rgb { 75 128 97 }
 }
 D01 = {
 	color = rgb { 122 179 97 }

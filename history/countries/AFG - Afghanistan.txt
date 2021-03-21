@@ -97,7 +97,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = reformed_communist
+	ruling_party = moderate_socialist
 	last_election = "1990.5.4"
 	election_frequency = 48
 	elections_allowed = no
@@ -105,14 +105,14 @@ set_politics = {
 set_popularities = {
 	ultranationalist = 4
 	national_bolshevik = 1
-	reactionary_nationalist = 3
+	reactionary_nationalist = 10
 	national_conservative = 17
-	moderate_conservative = 13
+	moderate_conservative = 6
 	centrist = 1
 	social_liberal = 9
 	progressive = 10
-	moderate_socialist = 7
-	reformed_communist = 26
+	moderate_socialist = 26
+	reformed_communist = 7
 	revolutionary_socialist = 4
 	communist = 5
 }
@@ -124,7 +124,7 @@ create_country_leader = {
 	desc = "POLITICS_MOHAMMAD_NAJIBULLAH_DESC"
 	picture = "Mohammad_Najibullah.dds"
 	expire = "1965.1.1"
-	ideology = reformed_communist_ideology
+	ideology = moderate_socialist_ideology
 	traits = {
 		
 	}

@@ -122,7 +122,7 @@ create_country_leader = {
 	desc = "POLITICS_ZINE_EL_ABIDINE_BEN_ALI_DESC"
 	picture = "Zine_El_Abidine_Ben_Ali.dds"
 	expire = "1965.1.1"
-	ideology = progressive_ideology
+	ideology = national_conservative_ideology
 	traits = {
 		
 	}
