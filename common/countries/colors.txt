@@ -76,13 +76,13 @@ SWI = {
 	color = rgb { 224 5 5 }
 	color_ui = rgb { 193 81 81 }
 }
-TUR = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+TUR = { #DONE
+	color = rgb { 205 55 55 }
+	color_ui = rgb { 205 55 55 }
 }
-GRE = {
-	color = rgb { 93 181 227 }
-	color_ui = rgb { 121 235 255 }
+GRE = { #DONE
+	color = rgb { 55 55 205 }
+	color_ui = rgb { 55 55 205 }
 }
 ALB = { #DONE
 	color = rgb { 196 40 14 }
@@ -573,6 +573,10 @@ MLT = { #DONE
 NGA = { #DONE
 	color = rgb { 75 128 97 }
 	color_ui = rgb { 75 128 97 }
+}
+ALG = { #DONE
+	color = rgb { 55 102 55 }
+	color_ui = rgb { 55 102 55 }
 }
 D01 = {
 	color = rgb { 122 179 97 }
