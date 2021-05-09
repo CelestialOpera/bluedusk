@@ -95,4 +95,19 @@ spriteTypes = {
 		name = "report_Lebed_Chosen"
 		texturefile = "gfx/event_pictures/report_event/Lebed_Chosen.dds"
 	}
+	
+	spriteType = {
+		name = "report_1992_CPSU_candidate_nomination"
+		texturefile = "gfx/event_pictures/report_event/1992_CPSU_candidate_nomination.dds"
+	}
+	
+	spriteType = {
+		name = "report_Rutskoy_defects"
+		texturefile = "gfx/event_pictures/report_event/Rutskoy_defects.dds"
+	}
+	
+	spriteType = {
+		name = "report_Liberals_defects"
+		texturefile = "gfx/event_pictures/report_event/Liberals_defects.dds"
+	}
 }

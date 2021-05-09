@@ -159,6 +159,8 @@ country_event = {
 				}
 			}
 			
+			set_country_flag = LIGACHEV_COUP
+			
 		}
 	}
 	
@@ -253,6 +255,13 @@ country_event = {
 			}
 		}
 		
+		hidden_effect = {
+			country_event = {
+				id = soviet.7
+				days = 5
+			}
+		}
+		
 	}
 	
 	#He must dissappear!
@@ -264,6 +273,243 @@ country_event = {
 				id = soviet.4
 				days = 15
 			}
+		}
+	}
+	
+}
+
+#CCoCPSU Meet To Nominate Candidate
+country_event = {
+	id = soviet.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.7" }
+	title = soviet.7.t
+	desc = soviet.7.d
+	picture = report_1992_CPSU_candidate_nomination
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Ryzhkov
+	option = { 
+		name = soviet.7.o1
+		
+		set_country_flag = ryzhkov_chosen_1992
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = 0.03
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.11
+				days = 35
+			}
+		}
+		
+	}
+	
+	#Yavlinsky
+	option = { 
+		name = soviet.7.o2
+		
+		set_country_flag = yavlinsky_chosen_1992
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.03
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.8
+				days = 5
+			}
+		}
+		
+	}
+	
+	#Andreyeva
+	option = { 
+		name = soviet.7.o3
+		
+		set_country_flag = andreyeva_chosen_1992
+		add_popularity = {
+			ideology = communist
+			popularity = 0.03
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.9
+				days = 5
+			}
+		}
+		
+	}
+	
+	#Take Control!
+	option = { 
+		name = soviet.7.o4
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+	}
+	
+}
+
+#Alexander Rutskoy Leaves CPSU
+country_event = {
+	id = soviet.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.8" }
+	title = soviet.8.t
+	desc = soviet.8.d
+	picture = report_Rutskoy_defects
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Traitor!
+	option = { 
+		name = soviet.8.o1
+		
+		add_popularity = {
+			ideology = progressive
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = -0.01
+		}
+	}
+	
+}
+
+#Liberal Defections
+country_event = {
+	id = soviet.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.9" }
+	title = soviet.9.t
+	desc = soviet.9.d
+	picture = report_Liberals_defects
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Traitor!
+	option = { 
+		name = soviet.9.o1
+		
+		add_popularity = {
+			ideology = progressive
+			popularity = -0.01
+		}
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = -0.02
+		}
+	}
+	
+}
+
+#Early Russian Presidential Election
+country_event = {
+	id = soviet.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.10" }
+	title = soviet.10.t
+	desc = soviet.10.d
+	picture = report_early_russian_presidentials
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Yeltsin Wins!
+	option = { 
+		name = soviet.10.o1
+		
+		add_popularity = {
+			ideology = reactionary_nationalist
+			popularity = 0.03
+		}
+	}
+	
+	#Gennady Zyuganov!
+	option = { 
+		name = soviet.10.o2
+		
+		add_popularity = {
+			ideology = communist
+			popularity = 0.03
+		}
+	}
+	
+}
+
+#Early Russian Presidential Election
+country_event = {
+	id = soviet.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.10" }
+	hidden = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Union Stands!
+	option = { 
+		name = soviet.11.o1
+		
+		if = {
+			limit = { 
+				country_exists = SOV
+				NOT = {
+					has_country_flag = LIGACHEV_COUP
+				}
+			}
+			SOV = { country_event = soviet.10 }
 		}
 	}
 	
