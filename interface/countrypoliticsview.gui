@@ -12,7 +12,7 @@ guiTypes = {
 		
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
-		
+		 
 		
 		
 		background = {
@@ -188,7 +188,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "faction_name"
-				position = { x = 253 y = 45 }
+				position = { x = 103 y = -45 }
 				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 193

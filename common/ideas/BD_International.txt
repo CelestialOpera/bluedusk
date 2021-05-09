@@ -1,0 +1,24 @@
+ideas = {
+	
+	country = {
+		NATO_member = {
+			picture = NATO_Member
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = 0.1
+			}
+		}
+	}
+
+}

@@ -5604,5 +5604,10 @@ spriteTypes = {
 		name = "GFX_idea_gre_metaxism_empowered"
 		texturefile = "gfx/interface/ideas/idea_gre_metaxism_empowered.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_NATO_Member"
+		texturefile = "gfx/interface/ideas/NATO_member.dds"
+	}
 
 }

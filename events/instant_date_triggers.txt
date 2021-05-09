@@ -1,0 +1,92 @@
+add_namespace = exact_date_trigger
+
+#Dec 15th, 1991
+country_event = {
+	id = exact_date_trigger.1
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1991.12.15
+	}
+	
+	#Example From OLD FOAU Files
+	#option = {
+	#	##French Lore Event
+	#	if = {
+	#		limit = { 
+	#			country_exists = FRA
+	#		}
+	#		FRA = { country_event = france.1 }
+	#	}
+	#	
+	#}
+}
+
+#Dec 18th, 1991
+country_event = {
+	id = exact_date_trigger.3
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1991.12.17
+	}
+	
+	option = {
+		##Cardenas Plane Crash
+	
+		if = {
+			limit = { 
+				country_exists = MEX
+			}
+			MEX = { country_event = mexico.1 }
+		}
+	}
+}
+
+#Dec 19th, 1991
+country_event = {
+	id = exact_date_trigger.4
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1991.12.18
+	}
+	
+	option = {
+		##NATO Ended
+	
+		if = {
+			limit = { 
+				country_exists = USA
+			}
+				
+			USA = { news_event = international.2 }
+				
+		}
+	}
+}
+
+#Dec 24th, 1991
+country_event = {
+	id = exact_date_trigger.9
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1991.12.23
+	}
+	
+	option = {
+		##Beginning of NYC Events
+	
+		if = {
+			limit = { 
+				country_exists = USA
+			}
+			USA = { country_event = devestation.5 }
+		}
+	}
+}

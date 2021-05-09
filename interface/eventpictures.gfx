@@ -55,4 +55,44 @@ spriteTypes = {
 		name = "report_Anatoly_Lukyanov_Ascends"
 		texturefile = "gfx/event_pictures/report_event/Anatoly_Lukyanov_Ascends.dds"
 	}
+	
+	spriteType = {
+		name = "report_Latvian_Nationalist_Protests"
+		texturefile = "gfx/event_pictures/report_event/Latvian_Nationalist_Protests.dds"
+	}
+	
+	spriteType = {
+		name = "report_More_Union_Protests"
+		texturefile = "gfx/event_pictures/report_event/More_Union_Protests.dds"
+	}
+	
+	spriteType = {
+		name = "report_ligachevs_coup"
+		texturefile = "gfx/event_pictures/report_event/ligachevs_coup.dds"
+	}
+	
+	spriteType = {
+		name = "report_PLANE_ACCIDENT"
+		texturefile = "gfx/event_pictures/report_event/PLANE_ACCIDENT.dds"
+	}
+	
+	spriteType = {
+		name = "report_Janet_Reno_oath"
+		texturefile = "gfx/event_pictures/report_event/Janet_Reno_oath.dds"
+	}
+	
+	spriteType = {
+		name = "report_half_mast"
+		texturefile = "gfx/event_pictures/report_event/half_mast_Britain.dds"
+	}
+	
+	spriteType = {
+		name = "report_Verkhovna_Attack"
+		texturefile = "gfx/event_pictures/report_event/Verkhovna_Attack.dds"
+	}
+	
+	spriteType = {
+		name = "report_Lebed_Chosen"
+		texturefile = "gfx/event_pictures/report_event/Lebed_Chosen.dds"
+	}
 }

@@ -101,6 +101,10 @@ if = {
 	}
 }
 
+add_ideas = {
+	NATO_member
+}
+
 set_politics = {
 	ruling_party = moderate_conservative
 	last_election = "1990.5.4"

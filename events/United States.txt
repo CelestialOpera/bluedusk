@@ -1,0 +1,39 @@
+add_namespace = america
+
+#Janet Reno Takes The Oath
+country_event = {
+	id = america.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event america.1" }
+	title = america.1.t
+	desc = america.1.d
+	picture = report_Janet_Reno_oath
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			kill_ideology_leader = social_liberal
+			
+			create_country_leader = {
+				name = "Janet Reno"
+				desc = "POLITICS_JANET RENO_DESC"
+				picture = "Janet_Reno.dds"
+				expire = "1965.1.1"
+				ideology = social_liberal_ideology
+				traits = {
+		
+				}
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Dear Lord
+	option = { 
+		name = america.1.o1
+		
+		
+	}
+	
+}

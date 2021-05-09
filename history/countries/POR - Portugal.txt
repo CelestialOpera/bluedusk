@@ -87,6 +87,10 @@ if = {
 	}
 }
 
+add_ideas = {
+	NATO_member
+}
+
 if = {
 	limit = {
 		has_dlc = "La Resistance"

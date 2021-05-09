@@ -103,7 +103,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = national_conservative
+	ruling_party = moderate_conservative
 	last_election = "1990.5.4"
 	election_frequency = 48
 	elections_allowed = no
@@ -112,8 +112,8 @@ set_popularities = {
 	ultranationalist = 1
 	national_bolshevik = 1
 	reactionary_nationalist = 6
-	national_conservative = 23
-	moderate_conservative = 9
+	national_conservative = 9
+	moderate_conservative = 23
 	centrist = 5
 	social_liberal = 7
 	progressive = 20
@@ -128,7 +128,7 @@ create_country_leader = {
 	desc = "POLITICS_FERNANDO_COLLOR_DESC"
 	picture = "Fernando_Collor.dds"
 	expire = "1965.1.1"
-	ideology = national_conservative_ideology
+	ideology = moderate_conservative_ideology
 	traits = {
 		
 	}

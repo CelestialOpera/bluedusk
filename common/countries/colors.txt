@@ -391,9 +391,9 @@ ARM = {
 	color_ui = rgb { 176  102  180 }
 }
 
-LAO = {
-	color = rgb { 176  102  136 }
-	color_ui = rgb { 176  102  136 }
+LAO = { #DONE
+	color = rgb { 148 89 81 }
+	color_ui = rgb { 148 89 81 }
 }
 
 INS = {
@@ -401,14 +401,14 @@ INS = {
 	color_ui = rgb { 40  50  120 }
 }
 
-VIN = {
-	color = rgb { 230  223  50 }
-	color_ui = rgb { 230  223  50 }
+VIN = { #DONE
+	color = rgb { 197  42  46 }
+	color_ui = rgb { 197  42  46 }
 }
 
-CAM = {
-	color = rgb { 100  71  150 }
-	color_ui = rgb { 100  71  150 }
+CAM = { #DONE
+	color = rgb { 35  57  129 }
+	color_ui = rgb { 35  57  129 }
 }
 
 MAL = {
@@ -577,6 +577,10 @@ NGA = { #DONE
 ALG = { #DONE
 	color = rgb { 55 102 55 }
 	color_ui = rgb { 55 102 55 }
+}
+SOM = { #DONE
+	color = rgb { 65 137 221 }
+	color_ui = rgb { 65 137 221 }
 }
 D01 = {
 	color = rgb { 122 179 97 }

@@ -7,18 +7,13 @@ news_event = {
 	title = devestation.1.t
 	desc = devestation.1.d
 	picture = news_arriving_new_york
+	
 	is_triggered_only = yes
 
-	fire_only_once = yes
+	#fire_only_once = yes
 
 	major = yes
-	#show_major = {
-	#	NOT = {
-	#		tag = GEA
-	#		tag = MAF
-	#		tag = GER
-	#	}
-	#}
+	
 
 	option = {
 		trigger = {
@@ -51,7 +46,7 @@ news_event = {
 	picture = news_world_summit_begins
 	is_triggered_only = yes
 
-	fire_only_once = yes
+	#fire_only_once = yes
 
 	major = yes
 	#show_major = {
@@ -118,7 +113,7 @@ news_event = {
 	picture = news_radio_silence
 	is_triggered_only = yes
 
-	fire_only_once = yes
+	#fire_only_once = yes
 
 	major = yes
 	#show_major = {
@@ -166,10 +161,32 @@ news_event = {
 				province = 3878
 				use_nuke = yes
 			}
+			
+			SOV = {
+				country_event = {
+					id = soviet.1
+					days = 2
+				}
+			}
+			
+			USA = {
+				country_event = {
+					id = america.1
+					days = 2
+				}
+			}
+			
+			ENG = {
+				country_event = {
+					id = britain.1
+					days = 5
+				}
+			}
+			
 		}
 	}
 
-	fire_only_once = yes
+	#fire_only_once = yes
 
 	major = yes
 	#show_major = {
@@ -187,11 +204,7 @@ news_event = {
 		name = devestation.4.o1
 		
 		hidden_effect = {
-			country_event = {
-				id = soviet.1
-				days = 1
-			}
-		
+			
 		}
 	}
 	
@@ -200,5 +213,24 @@ news_event = {
 			is_ai = yes
 		}
 		name = devestation.4.o1
+	}
+}
+
+#The Kick Off
+country_event = {
+	id = devestation.5
+	hidden = yes
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		##Beginning of NYC Events
+	
+		hidden_effect = {
+			news_event = {
+				id = devestation.1
+			}
+		
+		}
 	}
 }

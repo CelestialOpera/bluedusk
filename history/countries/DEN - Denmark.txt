@@ -40,8 +40,9 @@ if = {
 	}
 }
 
-
-
+add_ideas = {
+	NATO_member
+}
 
 set_politics = {
 	ruling_party = social_liberal

@@ -33,6 +33,238 @@ country_event = {
 	option = { 
 		name = soviet.1.o1
 		
+		hidden_effect = {
+			country_event = {
+				id = soviet.2
+				days = 4
+			}
+		}
+		
+	}
+	
+}
+
+#Latvian Nationalists Protest
+country_event = {
+	id = soviet.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.2" }
+	title = soviet.2.t
+	desc = soviet.2.d
+	picture = report_Latvian_Nationalist_Protests
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Dear Lord
+	option = { 
+		name = soviet.2.o1
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.3
+				days = 3
+			}
+		}
+	}
+	
+}
+
+#Nationalists Across The Union Join In
+country_event = {
+	id = soviet.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.3" }
+	title = soviet.3.t
+	desc = soviet.3.d
+	picture = report_More_Union_Protests
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Be Safe!
+	option = { 
+		name = soviet.3.o1
+		hidden_effect = {
+			country_event = {
+				id = soviet.5
+				days = 3
+			}
+		}
+	}
+	
+	#Take Precaution
+	option = { 
+		name = soviet.3.o2
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+	}
+	
+}
+
+#Ligachev Takes Over
+country_event = {
+	id = soviet.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.4" }
+	title = soviet.4.t
+	desc = soviet.4.d
+	picture = report_ligachevs_coup
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			retire_ideology_leader = moderate_socialist
+		
+			set_politics = {
+				ruling_party = reformed_communist
+			}
+		
+			create_country_leader = {
+				name = "Yegor Ligachyov"
+				desc = "POLITICS_YEGOR_LIGACHYOV_DESC"
+				picture = "Yegor_Ligachyov.dds"
+				expire = "1965.1.1"
+				ideology = reformed_communist_ideology 
+				traits = {
+		
+				}
+			}
+			
+			create_country_leader = {
+				name = "Vladimir Ivashko"
+				desc = "POLITICS_VLADIMIR_IVASHKO_DESC"
+				picture = "Vladimir_Ivashko.dds"
+				expire = "1965.1.1"
+				ideology = moderate_socialist_ideology 
+				traits = {
+		
+				}
+			}
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#This will only make things worse, won't it?
+	option = { 
+		name = soviet.4.o1
+		add_stability = -0.15
+		add_political_power = -50
+		
+	}
+	
+}
+
+#Attack On Verkhovna Rada Building In Kiev
+country_event = {
+	id = soviet.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.5" }
+	title = soviet.5.t
+	desc = soviet.5.d
+	picture = report_Verkhovna_Attack
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#The Emergency Services!
+	option = { 
+		name = soviet.5.o1
+		hidden_effect = {
+			country_event = {
+				id = soviet.6
+				days = 4
+			}
+		}
+	}
+	
+	#Military Force!
+	option = { 
+		name = soviet.5.o2
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+	}
+	
+}
+
+#Popular Lebed chosen as Democratic Union Candidate
+country_event = {
+	id = soviet.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.6" }
+	title = soviet.6.t
+	desc = soviet.6.d
+	picture = report_Lebed_Chosen
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_popularity = {
+				ideology = national_conservative
+				popularity = 0.05
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Congratulations!
+	option = { 
+		name = soviet.6.o1
+		
+		create_country_leader = {
+			name = "Alexander Lebed"
+			desc = "POLITICS_ALEXANDER_LEBED_DESC"
+			picture = "Alexander_Lebed.dds"
+			expire = "1965.1.1"
+			ideology = national_conservative_ideology 
+			traits = {
+		
+			}
+		}
+		
+	}
+	
+	#He must dissappear!
+	option = { 
+		name = soviet.6.o2
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
 	}
 	
 }

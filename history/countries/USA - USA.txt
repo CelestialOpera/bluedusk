@@ -77,6 +77,9 @@ if = {
 
 set_convoys = 500
 
+add_ideas = {
+	NATO_member
+}
 
 set_politics = {
 	ruling_party = social_liberal

@@ -1,0 +1,11 @@
+﻿l_english:
+ 
+ #NatSpirit
+ NATO_member:0 "NATO Member"
+ NATO_member_desc:0 "A member state of NATO."
+ 
+ 
+ #Events
+ international.2.t:0 "Dissolution of NATO"
+ international.2.d:0 "The enormous changes that started with the dissolution of the Warsaw Pact earlier this year have continued, as the North Atlantic Council convened a final time, to ratify the dissolution of NATO. With the end of the Cold War, and the impending signing of the World Peace Charter to replace NATO as a guarantee of common security, the alliance is regarded as having served its purpose. Already, military deployments across Europe are gearing down, as the US is preparing to withdraw its forces, fears of a Soviet advance towards the Fulda Gap no longer relevant. While some conservative voices have criticised the decision as premature, the decision to dissolve NATO is broadly popular, as a more unified and peaceful world beckons."
+ international.2.o1:0 "Bring 'em home, bring 'em home"

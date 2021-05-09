@@ -42,8 +42,13 @@
  USA_national_conservative_party_long:0 "Republican Party(Right Wing Republicans)"
  USA_moderate_conservative_party:0 "GOP-Moderates"
  USA_moderate_conservative_party_long:0 "Republican Party(Moderate Republicans)"
- USA_centrist_party:0 "GOP-Progressives"
- USA_centrist_party_long:0 "Republican Party(Progressive Republicans)"
+ USA_centrist_party:0 "Unaffiliated Moderates"
+ USA_centrist_party_long:0 "Unaffiliated Moderate Groups"
  USA_social_liberal_party:0 "D-Moderates"
  USA_social_liberal_party_long:0 "Democratic Party(Moderate Democrats)"
  
+ ###Events
+ 
+ america.1.t:0 "Janet Reno Takes Oath"
+ america.1.d:0 "Chaos everywhere, an American city wiped off the map and the entirety of the administration taken with it, besides Attorney General Janet Reno. Madame Reno was rushed to the Raven Rock Mountain Complex where she was immediately sworn in as President fulfilling her duties as designated survivor, despite expectations. The room was tense, numerous military officers, the secret service, and various staffers all bunched into the room, some expected the new president to be in tears and on the verge of delirium with the events transpiring but she took control and was strong. Immediately getting to work with ordering a relief to New York from across the country, declaring a state of emergency in the general NYC area as well as instituting martial law in the same area. The White House also launched a live broadcast of a ceremony with Janet Reno taking the oath once again in front of cameras, along with a tearful and tragic speech to the American people.\n\nChaos across the country and this one woman has all the weight on her shoulders, and with still nearly a year until the election the fate of the United States of America falls on her shoulders. America along with the rest of the world has face a new challenge that will rush us all into a new era. Now our union needs to stand together once more and stronger than ever; as Lincoln put it 'A house divided against itself cannot stand.' The United States of America and her people must rally behind President Reno, for if we can not unify then we can not stand and all is lost. A tragedy has come and while we must fight, we must also mourn..."
+ america.1.o1:0 "..."
