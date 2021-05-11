@@ -1,0 +1,242 @@
+﻿focus_tree = {
+	id = soviet_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	
+	continuous_focus_position = { x = 0 y = 10000 }
+	
+	focus = {
+		id = SOV_ligachevs_coup
+		#icon = GFX_focus_generic_treaty
+		x = 15
+		y = 0
+
+		cost = 0
+		
+		#bypass = {
+		#	date < 2010.01.01
+		#}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_launch_money_trail_investigations
+		#icon = GFX_focus_generic_little_entente
+		x = -1
+		y = 1
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 7
+		prerequisite = { focus = SOV_ligachevs_coup }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_arrest_right_wing_punks
+		#icon = GFX_focus_generic_little_entente
+		x = 1
+		y = 1
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 5
+		prerequisite = { focus = SOV_ligachevs_coup }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_crack_down_on_oligarchs
+		#icon = GFX_focus_generic_little_entente
+		x = -2
+		y = 2
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 4
+		prerequisite = { focus = SOV_launch_money_trail_investigations }
+		prerequisite = { focus = SOV_arrest_right_wing_punks }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_meet_foreign_investors
+		#icon = GFX_focus_generic_little_entente
+		x = 0
+		y = 2
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 4
+		prerequisite = { focus = SOV_launch_money_trail_investigations }
+		prerequisite = { focus = SOV_arrest_right_wing_punks }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_vlevo_education_program #Leftwards Education Program
+		#icon = GFX_focus_generic_little_entente
+		x = 2
+		y = 2
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 4
+		prerequisite = { focus = SOV_launch_money_trail_investigations }
+		prerequisite = { focus = SOV_arrest_right_wing_punks }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_ligachevs_kremlin
+		#icon = GFX_focus_generic_little_entente
+		x = 0
+		y = 3
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 5
+		prerequisite = { focus = SOV_crack_down_on_oligarchs }
+		prerequisite = { focus = SOV_meet_foreign_investors }
+		prerequisite = { focus = SOV_vlevo_education_program }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_decry_the_brezhnev_era
+		#icon = GFX_focus_generic_little_entente
+		x = -1
+		y = 4
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 5
+		prerequisite = { focus = SOV_crack_down_on_oligarchs }
+		prerequisite = { focus = SOV_ligachevs_kremlin }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_restore_komsomol
+		#icon = GFX_focus_generic_little_entente
+		x = 1
+		y = 4
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 5
+		prerequisite = { focus = SOV_vlevo_education_program }
+		prerequisite = { focus = SOV_ligachevs_kremlin }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+}

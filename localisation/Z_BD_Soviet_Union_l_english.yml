@@ -67,6 +67,18 @@
  SOV_communist_party:0 "KPSS-Hardliners"
  SOV_communist_party_long:0 "Kommunisticheskaya Partiya Sovetskogo Soyuza(Storonnik Zhestkoy Linii) - Communist Party of the Soviet Union(Hardliners)"
  
+ #Ideas
+ 
+ old_party_hegemony:0 "Old Party Hegemony"
+ old_party_hegemony_desc:0 "Despite the unions turn towards democracy under President Mikhail Gorbachev, the Communist Party which ruled the former Single-Party state still holds a hegemony on political power. That is not to say other political forces have not risen in popularity but the halls of power are still occupied by the Bolsheviks of old."
+ kgb_holding_out:0 "KGB Holding Out"
+ kgb_holding_out_desc:0 "The KGB, the most glorious intelligence service in the world has existed for decades even more if you consider it to be an extension of its preceeding organiztions. Following the reforms of Gorbachev, many within the service worried that the KGB may be thrown out the window but they were wrong. The KGB while powers have become more limited then in the past still holds on, while enjoyed by members of the KGB and even party hardliners; some have called it nothing more than a pulsating scar of a bygone age."
+ the_red_army_is_the_oldest:0 "The Red Army Is The Oldest"
+ the_red_army_is_the_oldest_desc:0 "The Red Army, the army of the Soviet Union is a symbol of greatness for socialism, and the Union itself, however; a symbol of greatness is not always great. Years of military stagnation, and now the process of peace, the Red Army is disorganized, and stuck with outdated equipment. Not only making the army and state look bad but making those who would otherwise be willing to join up, resist the recruitment."
+ 
+ #Country and Global Flags
+ LIGACHEV_COUP:0 "Ligachev Has Couped"
+ 
  ###Events
  
  soviet.1.t:0 "Anatoly Lukyanov Ascends to the Presidency"

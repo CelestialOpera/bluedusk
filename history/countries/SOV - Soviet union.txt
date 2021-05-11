@@ -1,5 +1,7 @@
 ﻿capital = 219
 
+set_stability = 0.65
+set_war_support = 0.15
 oob = "SOV_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -81,6 +83,12 @@ if = {
 	}
 }
 
+add_ideas = {
+	old_party_hegemony
+	kgb_holding_out
+	the_red_army_is_the_oldest
+}
+
 set_convoys = 50
 
 set_politics = {
@@ -103,6 +111,40 @@ set_popularities = {
 	revolutionary_socialist = 3
 	communist = 9
 }
+
+create_country_leader = {
+	name = "Dmitri Vasilyev"
+	desc = "POLITICS_DMITRI_VASILYEV_DESC"
+	picture = "Dmitri_Vasilyev.dds"
+	expire = "1953.3.1"
+	ideology = ultranationalist_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Eduard Limonov"
+	desc = "POLITICS_EDUARD_LIMONOV_DESC"
+	picture = "Eduard_Limonov.dds"
+	expire = "1953.3.1"
+	ideology = national_bolshevik_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Zhirinovsky"
+	desc = "POLITICS_VLADIMIR_ZHIRINOVSKY_DESC"
+	picture = "Vladimir_Zhirinovsky.dds"
+	expire = "1953.3.1"
+	ideology = reactionary_nationalist_ideology
+	traits = {
+		
+	}
+}
+
 
 create_country_leader = {
 	name = "Grigory Yavlinsky"
@@ -132,6 +174,28 @@ create_country_leader = {
 	picture = "Yegor_Ligachyov.dds"
 	expire = "1953.3.1"
 	ideology = reformed_communist_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Sergei Biets"
+	desc = "POLITICS_SERGEI_BIETS_DESC"
+	picture = "Sergei_Biets.dds"
+	expire = "1953.3.1"
+	ideology = revolutionary_socialist_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Nina Andreyeva"
+	desc = "POLITICS_NINA_ANDREYEVA_DESC"
+	picture = "Nina_Andreyeva.dds"
+	expire = "1953.3.1"
+	ideology = communist_ideology
 	traits = {
 		
 	}
