@@ -46,6 +46,8 @@
  USA_centrist_party_long:0 "Unaffiliated Moderate Groups"
  USA_social_liberal_party:0 "D-Moderates"
  USA_social_liberal_party_long:0 "Democratic Party(Moderate Democrats)"
+ USA_progressive_party:0 "D-Progressives"
+ USA_progressive_party_long:) "Democratic Party(Progressive Democrats)"
  
  ###Events
  
