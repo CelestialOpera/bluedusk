@@ -87,6 +87,8 @@ add_ideas = {
 	old_party_hegemony
 	kgb_holding_out
 	the_red_army_is_the_oldest
+	rusting_industry
+	red_oligarchy
 }
 
 set_convoys = 50

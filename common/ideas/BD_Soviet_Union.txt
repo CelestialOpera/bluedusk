@@ -68,6 +68,49 @@ ideas = {
 				
 			}
 		}
+		
+		red_oligarchy = {
+			picture = NATO_Member
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.02
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		rusting_industry = {
+			picture = NATO_Member
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+				global_building_slots = -0.15
+				industrial_capacity_factory = -0.15
+				fuel_gain = -5
+				industry_repair_factor = -0.15
+				
+			}
+		}
 	}
 
 }

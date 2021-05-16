@@ -239,4 +239,1073 @@
 		}
 	}
 	
+	focus = {
+		id = SOV_ligachevs_constitution
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 0
+		y = 5
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 1
+		prerequisite = { focus = SOV_decry_the_brezhnev_era }
+		prerequisite = { focus = SOV_ligachevs_kremlin }
+		prerequisite = { focus = SOV_restore_komsomol }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_restore_the_soviets_of_old
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -1
+		y = 6
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_ligachevs_constitution }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_recognize_russophilia_problem
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 1
+		y = 6
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_ligachevs_constitution }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_enforce_workplace_democracy
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -3
+		y = 7
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_restore_the_soviets_of_old }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_penalize_defilers_of_soviets
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -1
+		y = 7
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_restore_the_soviets_of_old }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_remove_political_contribution
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 1
+		y = 7
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_recognize_russophilia_problem }
+		prerequisite = { focus = SOV_restore_the_soviets_of_old }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_criminalize_racism
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 3
+		y = 7
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_recognize_russophilia_problem }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_anti_alcohol_campaigns
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 2
+		y = 8
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_criminalize_racism }
+		prerequisite = { focus = SOV_remove_political_contribution }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_cleanse_the_media
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 0
+		y = 8
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_penalize_defilers_of_soviets }
+		prerequisite = { focus = SOV_remove_political_contribution }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_computerize_resource_allocation
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -2
+		y = 8
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_penalize_defilers_of_soviets }
+		prerequisite = { focus = SOV_enforce_workplace_democracy }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_abolish_the_congress
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -1
+		y = 9
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_computerize_resource_allocation }
+		prerequisite = { focus = SOV_cleanse_the_media }
+		prerequisite = { focus = SOV_anti_alcohol_campaigns }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_every_comrade_a_meal_to_eat
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 1
+		y = 9
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_computerize_resource_allocation }
+		prerequisite = { focus = SOV_cleanse_the_media }
+		prerequisite = { focus = SOV_anti_alcohol_campaigns }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_a_clean_industry_for_a_clean_union
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -2
+		y = 10
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_abolish_the_congress }
+		prerequisite = { focus = SOV_every_comrade_a_meal_to_eat }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_out_with_the_old_industry
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 0
+		y = 10
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_abolish_the_congress }
+		prerequisite = { focus = SOV_every_comrade_a_meal_to_eat }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_ssr_corruption_trials
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 2
+		y = 10
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_abolish_the_congress }
+		prerequisite = { focus = SOV_every_comrade_a_meal_to_eat }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_reconnect_the_aral_sea
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -2
+		y = 11
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_a_clean_industry_for_a_clean_union }
+		prerequisite = { focus = SOV_out_with_the_old_industry }
+		prerequisite = { focus = SOV_ssr_corruption_trials }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_new_hammers_new_machines #Put a comma between the hammers and second new
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 0
+		y = 11
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_a_clean_industry_for_a_clean_union }
+		prerequisite = { focus = SOV_out_with_the_old_industry }
+		prerequisite = { focus = SOV_ssr_corruption_trials }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_launch_investigations_into_kgb
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 2
+		y = 11
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_a_clean_industry_for_a_clean_union }
+		prerequisite = { focus = SOV_out_with_the_old_industry }
+		prerequisite = { focus = SOV_ssr_corruption_trials }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_designate_wildlife_preservation_zones
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -4
+		y = 12
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_reconnect_the_aral_sea }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_soviet_oil_sovereign_wealth_fund
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -5
+		y = 13
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_designate_wildlife_preservation_zones }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_a_constant_modernization
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -2
+		y = 12
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_reconnect_the_aral_sea }
+		prerequisite = { focus = SOV_new_hammers_new_machines }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_dedication_to_the_civil_industry
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -3
+		y = 13
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_a_constant_modernization }
+		mutually_exclusive = { focus = SOV_keeping_the_red_army_supplied }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_new_volgograd_industrial_complex
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -3
+		y = 14
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_dedication_to_the_civil_industry }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_keeping_the_red_army_supplied
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -1
+		y = 13
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_a_constant_modernization }
+		mutually_exclusive = { focus = SOV_dedication_to_the_civil_industry }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_kiev_military_industry
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = -1
+		y = 14
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_keeping_the_red_army_supplied }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_spring_cleaning
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 2
+		y = 12
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_launch_investigations_into_kgb }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_reform_the_kgb
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 2
+		y = 13
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_spring_cleaning }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_constitutionalize_socialism
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 1
+		y = 14
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_reform_the_kgb }
+		prerequisite = { focus = SOV_a_constant_modernization }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_ligachev_on_the_world_stage
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 1
+		y = 15
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_constitutionalize_socialism }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_ressurect_comecon
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 0
+		y = 16
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_ligachev_on_the_world_stage }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_a_voluntary_warsaw_pact
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 2
+		y = 16
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_ligachev_on_the_world_stage }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_red_cincinnatus
+		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		x = 1
+		y = 17
+		relative_position_id = SOV_ligachevs_coup
+
+		cost = 6
+		prerequisite = { focus = SOV_a_voluntary_warsaw_pact }
+		prerequisite = { focus = SOV_ressurect_comecon }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	###Lebed Tree
+	
+	focus = {
+		id = SOV_president_lebed
+		#icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 25
+		y = 0
+
+		cost = 0
+		
+		#bypass = {
+		#	date < 2010.01.01
+		#}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LEBED_ELECTED
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_enforce_legislature_elections
+		#icon = GFX_focus_Money_Trail
+		x = -2
+		y = 1
+		relative_position_id = SOV_president_lebed
+
+		cost = 7
+		prerequisite = { focus = SOV_president_lebed }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_meet_with_corporate_bosses
+		#icon = GFX_focus_Money_Trail
+		x = 2
+		y = 1
+		relative_position_id = SOV_president_lebed
+
+		cost = 7
+		prerequisite = { focus = SOV_president_lebed }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_praise_the_churchs_strength
+		#icon = GFX_focus_Money_Trail
+		x = 0
+		y = 1
+		relative_position_id = SOV_president_lebed
+
+		cost = 7
+		prerequisite = { focus = SOV_president_lebed }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	###Army Tree
+	
+	focus = {
+		id = SOV_red_army_is_the_strongest
+		#icon = 
+		x = 0
+		y = 0
+
+		cost = 8
+		
+		#bypass = {
+		#	date < 2010.01.01
+		#}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_mass_reorganization
+		#icon = GFX_focus_Money_Trail
+		x = -1
+		y = 1
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_red_army_is_the_strongest }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_legacy_of_the_t34
+		#icon = GFX_focus_Money_Trail
+		x = 1
+		y = 1
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_red_army_is_the_strongest }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_old_army_new_equipment #Defensive
+		#icon = GFX_focus_Money_Trail
+		x = -4
+		y = 2
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_mass_reorganization }
+		prerequisite = { focus = SOV_legacy_of_the_t34 }
+		mutually_exclusive = { focus = SOV_pronichevs_offensive_reforms }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_pronichevs_offensive_reforms #Vladimir Pronichev
+		#icon = GFX_focus_Money_Trail
+		x = 4
+		y = 2
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_mass_reorganization }
+		prerequisite = { focus = SOV_legacy_of_the_t34 }
+		mutually_exclusive = { focus = SOV_old_army_new_equipment }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_defending_the_soviet_skies #Anti-Air
+		#icon = GFX_focus_Money_Trail
+		x = -5
+		y = 3
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_old_army_new_equipment }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	 
+	focus = {
+		id = SOV_soviet_fortification
+		#icon = GFX_focus_Money_Trail
+		x = -3
+		y = 3
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_old_army_new_equipment }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
 }
