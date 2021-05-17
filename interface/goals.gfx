@@ -2379,4 +2379,24 @@ spriteTypes = {
 		name = "GFX_focus_SOV_Ligachyov_Kremlin"
 		texturefile = "gfx/interface/goals/SOV_Ligachyov_Kremlin.dds"
 	}
+	
+	SpriteType = { 
+		name = "GFX_focus_vlevo_education_program"
+		texturefile = "gfx/interface/goals/vlevo_education_program.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_komsomol"
+		texturefile = "gfx/interface/goals/komsomol.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_Ligachev_Constitution"
+		texturefile = "gfx/interface/goals/Ligachev_Constitution.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_Red_Army_Is_the_Strongest"
+		texturefile = "gfx/interface/goals/Red_Army_Is_the_Strongest.dds"
+	}
 }

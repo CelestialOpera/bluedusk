@@ -132,3 +132,17 @@
  soviet.10.o1:0 "It is time to go against the grain."
  soviet.10.o2:0 "Boris, you are wrong."
  
+ ##National Focuses
+ 
+ SOV_ligachevs_coup:0 "Ligachev's Coup"
+ SOV_launch_money_trail_investigations:0 "Launch Money Trail Investigations"
+ SOV_arrest_right_wing_punks:0 "Arrest Right Wing Punks"
+ SOV_crack_down_on_oligarchs:0 "Crack Down On Oligarchs"
+ SOV_meet_foreign_investors:0 "Meet Foreign Investors"
+ SOV_vlevo_education_program:0 "Vlevo Education Program"
+ SOV_ligachevs_kremlin:0 "Ligachev's Kremlin"
+ SOV_decry_the_brezhnev_era:0 "Decry The Brezhnev Era"
+ SOV_restore_komsomol:0 "Restore KOMSOMOL"
+ 
+ SOV_red_army_is_the_strongest:0 "Red Army Is The Strongest"
+ 

@@ -140,7 +140,7 @@
 	
 	focus = {
 		id = SOV_vlevo_education_program #Leftwards Education Program
-		#icon = GFX_focus_generic_little_entente
+		icon = GFX_focus_vlevo_education_program
 		x = 2
 		y = 2
 		relative_position_id = SOV_ligachevs_coup
@@ -216,7 +216,7 @@
 	
 	focus = {
 		id = SOV_restore_komsomol
-		#icon = GFX_focus_generic_little_entente
+		icon = GFX_focus_komsomol
 		x = 1
 		y = 4
 		relative_position_id = SOV_ligachevs_coup
@@ -241,7 +241,7 @@
 	
 	focus = {
 		id = SOV_ligachevs_constitution
-		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		icon = GFX_focus_Ligachev_Constitution
 		x = 0
 		y = 5
 		relative_position_id = SOV_ligachevs_coup
@@ -1136,7 +1136,7 @@
 	
 	focus = {
 		id = SOV_red_army_is_the_strongest
-		#icon = 
+		icon = GFX_focus_Red_Army_Is_the_Strongest
 		x = 0
 		y = 0
 
@@ -1211,7 +1211,7 @@
 	focus = {
 		id = SOV_old_army_new_equipment #Defensive
 		#icon = GFX_focus_Money_Trail
-		x = -4
+		x = -3
 		y = 2
 		relative_position_id = SOV_red_army_is_the_strongest
 
@@ -1237,7 +1237,7 @@
 	focus = {
 		id = SOV_pronichevs_offensive_reforms #Vladimir Pronichev
 		#icon = GFX_focus_Money_Trail
-		x = 4
+		x = 3
 		y = 2
 		relative_position_id = SOV_red_army_is_the_strongest
 
@@ -1263,7 +1263,7 @@
 	focus = {
 		id = SOV_defending_the_soviet_skies #Anti-Air
 		#icon = GFX_focus_Money_Trail
-		x = -5
+		x = -4
 		y = 3
 		relative_position_id = SOV_red_army_is_the_strongest
 
@@ -1287,12 +1287,278 @@
 	focus = {
 		id = SOV_soviet_fortification
 		#icon = GFX_focus_Money_Trail
-		x = -3
+		x = -2
 		y = 3
 		relative_position_id = SOV_red_army_is_the_strongest
 
 		cost = 7
 		prerequisite = { focus = SOV_old_army_new_equipment }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_soviet_anti_tank_systems
+		#icon = GFX_focus_Money_Trail
+		x = -4
+		y = 4
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_defending_the_soviet_skies }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_protect_the_coasts_of_our_union
+		#icon = GFX_focus_Money_Trail
+		x = -2
+		y = 4
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_soviet_fortification }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_the_red_army_defends
+		#icon = GFX_focus_Money_Trail
+		x = -3
+		y = 5
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_protect_the_coasts_of_our_union }
+		prerequisite = { focus = SOV_soviet_anti_tank_systems }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_red_motorized_troops
+		#icon = GFX_focus_Money_Trail
+		x = 4
+		y = 3
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_pronichevs_offensive_reforms }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_further_our_tank_designs
+		#icon = GFX_focus_Money_Trail
+		x = 4
+		y = 4
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_red_motorized_troops }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_artillery_on_the_offensive
+		#icon = GFX_focus_Money_Trail
+		x = 2
+		y = 3
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_pronichevs_offensive_reforms }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_bombs_to_paint_all_red
+		#icon = GFX_focus_Money_Trail
+		x = 2
+		y = 4
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_pronichevs_offensive_reforms }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_the_red_army_attacks
+		#icon = GFX_focus_Money_Trail
+		x = 3
+		y = 5
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_bombs_to_paint_all_red }
+		prerequisite = { focus = SOV_further_our_tank_designs }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_the_red_army_needs_numbers
+		#icon = GFX_focus_Money_Trail
+		x = 0
+		y = 6
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_the_red_army_attacks focus = SOV_the_red_army_defends }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_modern_equipment_for_modern_comrades
+		#icon = GFX_focus_Money_Trail
+		x = -1
+		y = 7
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_the_red_army_needs_numbers }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_expanded_arms_industry
+		#icon = GFX_focus_Money_Trail
+		x = 1
+		y = 7
+		relative_position_id = SOV_red_army_is_the_strongest
+
+		cost = 7
+		prerequisite = { focus = SOV_the_red_army_needs_numbers }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
