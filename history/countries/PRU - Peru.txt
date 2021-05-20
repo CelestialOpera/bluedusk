@@ -101,6 +101,9 @@ add_ideas = {
 	PRUwicked_witches_of_peru
 	PRUfathers_punishment
 	rogue_state
+	closed_economy
+	low_economic_mobilisation
+	limited_conscription
 }
 
 set_politics = {

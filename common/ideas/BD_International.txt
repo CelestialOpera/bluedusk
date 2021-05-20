@@ -21,7 +21,7 @@ ideas = {
 		}
 		
 		rogue_state = {
-			#picture = Rogue_State
+			picture = Rogue_State
 
 			allowed = {
 				always = yes

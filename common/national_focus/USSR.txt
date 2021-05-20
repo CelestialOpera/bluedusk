@@ -1132,6 +1132,60 @@
 		}
 	}
 	
+	focus = {
+		id = SOV_all_union_cabinet
+		#icon = GFX_focus_Money_Trail
+		x = -1
+		y = 2
+		relative_position_id = SOV_president_lebed
+		
+		cost = 7
+		prerequisite = { focus = SOV_enforce_legislature_elections }
+		prerequisite = { focus = SOV_praise_the_churchs_strength }
+		prerequisite = { focus = SOV_meet_with_corporate_bosses }
+		mutually_exclusive = { focus = SOV_russophilic_cabinet }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_russophilic_cabinet
+		#icon = GFX_focus_Money_Trail
+		x = 1
+		y = 2
+		relative_position_id = SOV_president_lebed
+
+		cost = 7
+		prerequisite = { focus = SOV_enforce_legislature_elections }
+		prerequisite = { focus = SOV_praise_the_churchs_strength }
+		prerequisite = { focus = SOV_meet_with_corporate_bosses }
+		mutually_exclusive = { focus = SOV_all_union_cabinet }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
 	###Army Tree
 	
 	focus = {

@@ -55,7 +55,7 @@
  PRU_progressive_party:0 "Moderadas"
  PRU_progressive_party_long:0 "Guerrillas Moderadas - Moderate Guerrillas"
  PRU_moderate_socialist_party:0 "Socialistas"
- PRU_moderate_socialist_party:0 "Guerrillas Socialistas - Socialist Guerrillas"
+ PRU_moderate_socialist_party_long:0 "Guerrillas Socialistas - Socialist Guerrillas"
  PRU_reformed_communist_party:0 "Codemoistas"
  PRU_reformed_communist_party_long:0 "Guerrillas Comunistas Democráticas - Democratic Communist Guerrillas"
  PRU_revolutionary_socialist_party:0 "MRTA"
@@ -66,6 +66,9 @@
  ##Leader Descriptions
  
  POLITICS_ABIMAEL_GUZMAN_DESC:0 "Abimael Guzmán, or 'Father Gonzalo' had his political beginnings in university where he was known to be highly attracted to marxism with a growing influence from José Carlos Mariátegui who founded the Peruvian Communist Party. After university he went on to teach himself under the influence of Dr. Efraín Morote Best, while teaching he became active in many left-wing cirlces in his environment and began the formation of a group of individuals who like him wanted to bring revolution to Peru. During the 1960s he went to the People's Republic of China, and became head of personnel for San Cristóbal of Huamanga University until the 1970s when he went underground. When the Peruvian Communist Party split between the Pro-Soviet faction and Pro-China faction; Father Gonzalo followed the Pro-China line eventually becoming leader of the faction, the faction that would later become to be known as The Shining Path. Adopting the nom de guerre Comrade Gonzalo he began advocating for a revolution more openly, a revolution lead by the peasants and heavily inspired by the Maoist revolution in China. Eventually conflict would break out between the Shining Path, the Peruvian government, and other smaller groups and for quite some time the government was on top of the conflict until 1987 when Father Gonzalo with thousands of supporters marched on the ruined capital and declared a new government. The conflict would continue officially until 1990, afterwards Comrade Gonzalo began to popularize himself as Father Gonzalo.\n\nUnder the regime of Gonzalo he would enact brutal authoritarianism while pushing a narrative of being a kind Father to all Peruvians, when in reality he acted not like the kind loving father he portrayed but rather a medieval torturer. While there is lots of opposition to Guzmán and his regime, he continues to deny any opposition while personally ordering the cleansing of the nation and has lead the country through its own cultural revolution. Guzmán has been strongly against the world peace that has be in the works for a long time saying that it is a ploy to turn the world over to capitalist imperialists and even China and the USSR have fallen to the lies, even going as far to declare himself the Protector and Father of Modern Socialism."
+ 
+ ###ToolTips
+ PRU_wicked_witches_tt:0 "§RCannot train units, disband units, or edit unit templates.§!\n"
  
  ##National Spirits
  PRUfathers_punishment:0 "Fathers Punishment"

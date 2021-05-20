@@ -1,0 +1,13 @@
+on_actions = {
+ #For Election stuff take inspiration from modern KR system
+ 
+	on_startup = {
+		effect = {
+			#The Wicked Witches of Peru stuff - will be removed in event once added
+			#PRU = {
+			#	country_lock_all_division_template = yes
+			#}
+		}
+	}
+ 
+}

@@ -5619,5 +5619,19 @@ spriteTypes = {
 		name = "GFX_idea_Outdated_military"
 		texturefile = "gfx/interface/ideas/Outdated_military.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_Fathers_Punishment"
+		texturefile = "gfx/interface/ideas/PRU_Fathers_Punishment.dds"
+	}
 
+	spriteType = {
+		name = "GFX_idea_serene_isolation"
+		texturefile = "gfx/interface/ideas/PRU_serene_isolation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_wicked_witches"
+		texturefile = "gfx/interface/ideas/PRU_wicked_witches.dds"
+	}
 }
