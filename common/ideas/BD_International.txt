@@ -19,6 +19,24 @@ ideas = {
 				stability_factor = 0.1
 			}
 		}
+		
+		rogue_state = {
+			#picture = Rogue_State
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
 	}
 
 }

@@ -1,0 +1,64 @@
+ideas = {
+	
+	country = {
+	
+		PRUfathers_punishment = {
+			picture = Fathers_Punishment
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = -0.15
+				command_power_gain = -0.15
+			}
+		}
+		
+		PRUwicked_witches_of_peru = {
+			#picture = NATO_Member
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+		
+		PRUserene_isolation = {
+			#picture = NATO_Member
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+		
+		
+	}
+
+}

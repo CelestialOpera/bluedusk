@@ -115,7 +115,7 @@
 	
 	focus = {
 		id = SOV_meet_foreign_investors
-		#icon = GFX_focus_generic_little_entente
+		icon = GFX_focus_Meet_foreign_investors
 		x = 0
 		y = 2
 		relative_position_id = SOV_ligachevs_coup
@@ -191,7 +191,7 @@
 	
 	focus = {
 		id = SOV_decry_the_brezhnev_era
-		#icon = GFX_focus_generic_little_entente
+		icon = GFX_focus_Decry_brezhnev
 		x = -1
 		y = 4
 		relative_position_id = SOV_ligachevs_coup
@@ -462,7 +462,7 @@
 	
 	focus = {
 		id = SOV_computerize_resource_allocation
-		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		icon = GFX_focus_computerize_resources
 		x = -2
 		y = 8
 		relative_position_id = SOV_ligachevs_coup
@@ -487,7 +487,7 @@
 	
 	focus = {
 		id = SOV_abolish_the_congress
-		#icon = GFX_focus_SOV_Ligachyov_Kremlin
+		icon = GFX_focus_Abolish_The_Congress
 		x = -1
 		y = 9
 		relative_position_id = SOV_ligachevs_coup

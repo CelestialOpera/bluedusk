@@ -5609,5 +5609,15 @@ spriteTypes = {
 		name = "GFX_idea_NATO_Member"
 		texturefile = "gfx/interface/ideas/NATO_member.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_Rogue_State"
+		texturefile = "gfx/interface/ideas/Rogue_State.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Outdated_military"
+		texturefile = "gfx/interface/ideas/Outdated_military.dds"
+	}
 
 }

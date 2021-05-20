@@ -138,7 +138,7 @@ country_event = {
 			}
 		
 			create_country_leader = {
-				name = "Yegor Ligachyov"
+				name = "Yegor Ligachev"
 				desc = "POLITICS_YEGOR_LIGACHYOV_DESC"
 				picture = "Yegor_Ligachyov.dds"
 				expire = "1965.1.1"
@@ -763,7 +763,7 @@ country_event = {
 	
 	#Zhirinovsky
 	option = { 
-		name = soviet.15.o4
+		name = soviet.15.o5
 		set_politics = {
 			ruling_party = reactionary_nationalist
 		}

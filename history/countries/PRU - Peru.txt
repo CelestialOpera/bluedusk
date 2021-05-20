@@ -96,6 +96,13 @@ if = {
 	}
 }
 
+add_ideas = {
+	PRUserene_isolation
+	PRUwicked_witches_of_peru
+	PRUfathers_punishment
+	rogue_state
+}
+
 set_politics = {
 	ruling_party = communist
 	last_election = "1990.5.4"

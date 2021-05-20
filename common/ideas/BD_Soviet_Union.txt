@@ -45,7 +45,7 @@ ideas = {
 		}
 		
 		the_red_army_is_the_oldest = {
-			picture = NATO_Member
+			picture = Outdated_military
 
 			allowed = {
 				always = yes
