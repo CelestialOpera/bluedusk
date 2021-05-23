@@ -1,0 +1,291 @@
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	continuous_focus_position = { x = 0 y = 10000 }
+	
+	
+	focus = {
+		id = USA_the_world_peace_summit
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 7
+		y = 0
+
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_reassesing_our_priorties
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 7
+		y = 1
+
+		prerequisite = { focus = USA_the_world_peace_summit }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_slash_the_military_budget
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 7
+		y = 2
+
+		prerequisite = { focus = USA_reassesing_our_priorties }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_redirect_funding
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 7
+		y = 3
+
+		prerequisite = { focus = USA_slash_the_military_budget }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_get_working_together
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 10
+		y = 1
+
+		prerequisite = { focus = USA_the_world_peace_summit }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_committee_on_global_development
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 10
+		y = 2
+
+		prerequisite = { focus = USA_get_working_together }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_ambitions_towards_the_stars
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 10
+		y = 3
+
+		prerequisite = { focus = USA_committee_on_global_development }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_ensuring_global_cooperation
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 4
+		y = 1
+
+		prerequisite = { focus = USA_the_world_peace_summit }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_2nd_summit_of_treaty_signatories
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 4
+		y = 2
+
+		prerequisite = { focus = USA_ensuring_global_cooperation }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_reach_out_to_non-signatories
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 4
+		y = 3
+
+		prerequisite = { focus = USA_2nd_summit_of_treaty_signatories }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+	
+	focus = {
+		id = USA_peace_secured
+		icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 7
+		y = 4
+
+		prerequisite = { focus = USA_reach_out_to_non-signatories }
+		prerequisite = { focus = USA_redirect_funding }
+		prerequisite = { focus = USA_ambitions_towards_the_stars }
+		
+		cost = 0
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = LIGACHEV_COUP
+		}
+
+		completion_reward = {
+		#
+		}
+	}
+
+}
