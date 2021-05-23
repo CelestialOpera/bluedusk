@@ -4,8 +4,8 @@ state={
 	name="STATE_819"
 
 	history={
-		owner = ENG
-		add_core_of = ENG
+		owner = WSI
+		add_core_of = WSI
 		buildings = {
 			infrastructure = 4
 			

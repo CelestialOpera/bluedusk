@@ -5,8 +5,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = SVG
-		add_core_of = SVG
+		owner = WSI
+		add_core_of = WSI
 		buildings = {
 			infrastructure = 4
 			379 = {

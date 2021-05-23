@@ -582,6 +582,10 @@ SOM = { #DONE
 	color = rgb { 65 137 221 }
 	color_ui = rgb { 65 137 221 }
 }
+WSI = {
+	color = rgb { 20 116 220 }
+	color_ui = rgb { 20 116 220 }
+}
 D01 = {
 	color = rgb { 122 179 97 }
 	color_ui = rgb { 159 233 126 }

@@ -4,8 +4,8 @@ state={
 	name="STATE_816"
 
 	history={
-		owner = ANT
-		add_core_of = ANT
+		owner = WSI
+		add_core_of = WSI
 		buildings = {
 			infrastructure = 4
 			13241 = {

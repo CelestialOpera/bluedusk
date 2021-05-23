@@ -1,7 +1,5 @@
-﻿capital = 306
+﻿capital = 689
 
-set_stability = 0.5
-set_war_support = 0.8
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -74,32 +72,32 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = progressive
 	last_election = "1989.11.1"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	ultranationalist = 3
-	national_bolshevik = 1
-	reactionary_nationalist = 3
-	national_conservative = 20
-	moderate_conservative = 9
-	centrist = 4
-	social_liberal = 24
-	progressive = 11
+	ultranationalist = 2
+	national_bolshevik = 2
+	reactionary_nationalist = 14
+	national_conservative = 5
+	moderate_conservative = 5
+	centrist = 7
+	social_liberal = 10
+	progressive = 23
 	moderate_socialist = 5
-	reformed_communist = 1
-	revolutionary_socialist = 8
-	communist = 11
+	reformed_communist = 12
+	revolutionary_socialist = 2
+	communist = 13
 }
 
 create_country_leader = {
-	name = "César Gaviria"
-	desc = "POLITICS_CESAR_GAVIRIA_DESC"
-	picture = "Cesar_Gaviria.dds"
+	name = "Michael Manley"
+	desc = "POLITICS_MICHAEL_MANLEY_DESC"
+	picture = "Michael_Manley.dds"
 	expire = "1953.3.1"
-	ideology = social_liberal_ideology
+	ideology = progressive_ideology
 	traits = {
 		
 	}
