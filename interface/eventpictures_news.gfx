@@ -44,5 +44,20 @@ spriteTypes = {
 		name = "news_NATO_Dissolved"
 		texturefile = "gfx/event_pictures/news_event/NATO_dissolved.dds"
 	}
+	
+	spriteType = {
+		name = "denmark_fremskridtspartiet_wins_news"
+		texturefile = "gfx/event_pictures/news_event/denmark_fremskridtspartiet_wins_news.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_venstre_wins_news"
+		texturefile = "gfx/event_pictures/news_event/denmark_venstre_wins_news.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_sozi_wins_news"
+		texturefile = "gfx/event_pictures/news_event/denmark_sozi_wins_news.dds"
+	}
 
 }

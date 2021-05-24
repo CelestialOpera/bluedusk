@@ -110,4 +110,94 @@ spriteTypes = {
 		name = "report_Liberals_defects"
 		texturefile = "gfx/event_pictures/report_event/Liberals_defects.dds"
 	}
+	
+	spriteType = {
+		name = "denmark_death_of_margrethe"
+		texturefile = "gfx/event_pictures/report_event/denmark_death_of_margrethe.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_frederik_made_king"
+		texturefile = "gfx/event_pictures/report_event/denmark_frederik_made_king.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_jonni_hansen_march"
+		texturefile = "gfx/event_pictures/report_event/denmark_jonni_hansen_march.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_paul_schluter_law_and_order"
+		texturefile = "gfx/event_pictures/report_event/denmark_paul_schluter_law_and_order.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_mogens_glistrup_on_tv"
+		texturefile = "gfx/event_pictures/report_event/denmark_mogens_glistrup_on_tv.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_dnsb_attacks_in_mjolnerparken"
+		texturefile = "gfx/event_pictures/report_event/denmark_dnsb_attacks_in_mjolnerparken.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_pia_kjaersgaard_attacked"
+		texturefile = "gfx/event_pictures/report_event/denmark_pia_kjaersgaard_attacked.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_fremskridtspartiet_critical"
+		texturefile = "gfx/event_pictures/report_event/denmark_fremskridtspartiet_critical.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_more_racism"
+		texturefile = "gfx/event_pictures/report_event/denmark_more_racism.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_enhedslisten_is_good"
+		texturefile = "gfx/event_pictures/report_event/denmark_enhedslisten_is_good.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_government_tensions"
+		texturefile = "gfx/event_pictures/report_event/denmark_government_tensions.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_venstre_leaves_government"
+		texturefile = "gfx/event_pictures/report_event/denmark_venstre_leaves_government.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_svend_auken_says_no"
+		texturefile = "gfx/event_pictures/report_event/denmark_svend_auken_says_no.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_marianne_jelved_elections"
+		texturefile = "gfx/event_pictures/report_event/denmark_marianne_jelved_elections.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_general_election"
+		texturefile = "gfx/event_pictures/report_event/denmark_general_election.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_ellemann_jensen_wins"
+		texturefile = "gfx/event_pictures/report_event/denmark_ellemann_jensen_wins.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_dnsb_friends_with_fremskridtspartiet"
+		texturefile = "gfx/event_pictures/report_event/denmark_dnsb_friends_with_fremskridtspartiet.dds"
+	}
+	
+	spriteType = {
+		name = "denmark_svend_auken_debate"
+		texturefile = "gfx/event_pictures/report_event/denmark_svend_auken_debate.dds"
+	}
 }

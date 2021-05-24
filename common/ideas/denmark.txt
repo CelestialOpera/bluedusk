@@ -1,5 +1,132 @@
 ideas = {
 	
+	country = {
+		
+		idea_denmark_margrethe_ii = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_denmark_margrethe_ii_gfx
+			
+			modifier = {
+				stability_factor = 0.1
+			}
+		}
+		
+		idea_denmark_frederik_x = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_denmark_frederik_x_gfx
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+		idea_denmark_racist_violence = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_denmark_racist_violence_gfx
+			
+			modifier = {
+				political_power_cost = 0.1
+				stability_factor = -0.05
+				social_liberal_drift = -0.01
+				centrist_drift = -0.01
+				moderate_conservative_drift = -0.01
+			}
+		}
+		
+		idea_denmark_tryghed_og_tillid = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_denmark_tryghed_og_tillid_gfx
+			
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = -0.05
+				reactionary_nationalist_drift = 0.02
+				ultranationalist_drift = 0.01
+				monthly_population = -0.05
+			}
+		}
+		
+		idea_denmark_frihed_er_det_bedste_guld = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_denmark_tryghed_og_tillid_gfx
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				stability_factor = 0.05
+				centrist_drift = 0.02
+				moderate_conservative_drift = 0.01
+				social_liberal_drift = 0.01
+			}
+		}
+		
+		idea_denmark_danmark_for_folket = {
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_denmark_tryghed_og_tillid_gfx
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.1
+				progressive_drift = 0.02
+				moderate_socialist_drift = 0.01
+				reformed_communist_drift = 0.01
+			}
+		}
+		
+	}
 
 	political_advisor = {
 

@@ -1,0 +1,598 @@
+add_namespace = denmark
+add_namespace = denmark_news
+
+country_event = { #Attack on New York
+	id = denmark.1
+	title = denmark.1.t
+	desc = denmark.1.d
+	picture = denmark_death_of_margrethe
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.1.o1
+		add_political_power = -100
+		add_stability = -0.05
+		add_war_support = -0.05
+		remove_ideas = idea_denmark_margrethe_ii
+		create_country_leader = {
+			name = "Marianne Jelved"
+			desc = "POLITICS_MARIANNE_JELVED_DESC"
+			picture = "Marianne_Jelved.dds"
+			ideology = social_liberal_ideology
+			traits = {
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.2
+				days = 1
+			}
+		}
+	}
+}
+
+country_event = { #King Frederik X Proclaimed King
+	id = denmark.2
+	title = denmark.2.t
+	desc = denmark.2.d
+	picture = denmark_frederik_made_king
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.2.o1
+		add_political_power = 45
+		add_stability = 0.02
+		add_war_support = 0.02
+		add_ideas = idea_denmark_frederik_x
+		hidden_effect = {
+			country_event = {
+				id = denmark.3
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { #Jonni Hansen Clashes with Far-Left Elements in Nørrebro 
+	id = denmark.3
+	title = denmark.3.t
+	desc = denmark.3.d
+	picture = denmark_jonni_hansen_march
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.3.o1
+		add_stability = -0.03
+		add_popularity = {
+			ideology = ultranationalist
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.02
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.4
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { #Paul Schlüter Encourages Harder Line Against Radicals
+	id = denmark.4
+	title = denmark.4.t
+	desc = denmark.4.d
+	picture = denmark_paul_schluter_law_and_order
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.4.o1
+		add_political_power = -15
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.04
+		}
+		add_popularity = {
+			ideology = moderate_conservative
+			popularity = 0.02
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.5
+				days = 6
+			}
+		}
+	}
+}
+
+country_event = { #Mogens Glistrup Accuses Muslims of Committing the New York Attack
+	id = denmark.5
+	title = denmark.5.t
+	desc = denmark.5.d
+	picture = denmark_mogens_glistrup_on_tv
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Of course I'm racist, all good danes are.
+		name = denmark.5.o1
+		add_stability = -0.03
+		add_popularity = {
+			ideology = reactionary_nationalist
+			popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.6
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #DNSB Attacks People in Mjølnerparken
+	id = denmark.6
+	title = denmark.6.t
+	desc = denmark.6.d
+	picture = denmark_dnsb_attacks_in_mjolnerparken
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.6.o1
+		add_stability = -0.02
+		add_popularity = {
+			ideology = ultranationalist
+			popularity = 0.01
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.7
+				days = 6
+			}
+		}
+	}
+}
+
+country_event = { #Pia Kjærsgaard Attacked on Nørrebro
+	id = denmark.7
+	title = denmark.7.t
+	desc = denmark.7.d
+	picture = denmark_pia_kjaersgaard_attacked
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.7.o1
+		add_political_power = -25
+		add_popularity = {
+			ideology = reactionary_nationalist
+			popularity = 0.03
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.8
+				days = 4
+			}
+		}
+	}
+}
+
+country_event = { #Fremskridtspartiet Criticises Government Inaction
+	id = denmark.8
+	title = denmark.8.t
+	desc = denmark.8.d
+	picture = denmark_fremskridtspartiet_critical
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.8.o1
+		add_political_power = -15
+		add_popularity = {
+			ideology = reactionary_nationalist
+			popularity = 0.02
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.9
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #Racist Attacks Continue
+	id = denmark.9
+	title = denmark.9.t
+	desc = denmark.9.d
+	picture = denmark_more_racism
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.9.o1
+		add_political_power = -25
+		add_ideas = idea_denmark_racist_violence
+		hidden_effect = {
+			country_event = {
+				id = denmark.10
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { #Left Criticises Government Inaction on Racist Violence
+	id = denmark.10
+	title = denmark.10.t
+	desc = denmark.10.d
+	picture = denmark_enhedslisten_is_good
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.10.o1
+		add_political_power = -25
+		add_popularity = {
+			ideology = reformed_communist
+			popularity = 0.04
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.11
+				days = 10
+			}
+		}
+	}
+}
+
+country_event = { #Tensions Brewing in Government
+	id = denmark.11
+	title = denmark.11.t
+	desc = denmark.11.d
+	picture = denmark_government_tensions
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.11.o1
+		add_political_power = -35
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = centrist
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = moderate_conservative
+			popularity = -0.02
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.12
+				days = 6
+			}
+		}
+	}
+}
+
+country_event = { #Venstre Leaves the Government
+	id = denmark.12
+	title = denmark.12.t
+	desc = denmark.12.d
+	picture = denmark_venstre_leaves_government
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.12.o1
+		add_popularity = {
+			ideology = centrist
+			popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.13
+				days = 7
+			}
+		}
+	}
+}
+
+country_event = { #Supply and Confidence Deal with Socialdemokratiet Fails
+	id = denmark.13
+	title = denmark.13.t
+	desc = denmark.13.d
+	picture = denmark_svend_auken_says_no
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.13.o1
+		add_political_power = -45
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.14
+				days = 6
+			}
+		}
+	}
+}
+
+country_event = { #Marianne Jelved Calls New Elections
+	id = denmark.14
+	title = denmark.14.t
+	desc = denmark.14.d
+	picture = denmark_marianne_jelved_elections
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.14.o1
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.02
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.15
+				days = 28
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.16
+				days = 5
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.18
+				days = 27
+			}
+		}
+	}
+}
+
+country_event = { #1992 General Election
+	id = denmark.15
+	title = denmark.15.t
+	desc = denmark.15.d
+	picture = denmark_general_election
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #The Ice Queen's Reign Begins
+		name = denmark.15.o1
+		set_politics = {
+			ruling_party = reactionary_nationalist
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = reactionary_nationalist
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = national_conservative
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = ultranationalist
+			popularity = 0.02
+		}
+		swap_ideas = {
+			remove_idea = idea_denmark_racist_violence
+			add_idea = idea_denmark_tryghed_og_tillid
+		}
+		every_country = {
+		    limit = {
+			    NOT = {
+				    tag = DEN
+				}
+			}
+			news_event = {
+			    hours = 4
+			    id = denmark_news.1
+		    }
+		}
+	}
+	
+	option = { #Ellemann-Jensen Salvages the Governing Coalition
+		name = denmark.15.o2
+		set_politics = {
+			ruling_party = centrist
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = centrist
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = moderate_conservative
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.02
+		}
+		swap_ideas = {
+			remove_idea = idea_denmark_racist_violence
+			add_idea = idea_denmark_frihed_er_det_bedste_guld
+		}
+		every_country = {
+		    limit = {
+			    NOT = {
+				    tag = DEN
+				}
+			}
+			news_event = {
+			    hours = 4
+			    id = denmark_news.2
+		    }
+		}
+	}
+	
+	option = { #Svend Auken Forms the Workers' Majority
+		name = denmark.15.o3
+		set_politics = {
+			ruling_party = progressive
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.07
+		}
+		add_popularity = {
+			ideology = reformed_communist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = 0.03
+		}
+		swap_ideas = {
+			remove_idea = idea_denmark_racist_violence
+			add_idea = idea_denmark_danmark_for_folket
+		}
+		every_country = {
+		    limit = {
+			    NOT = {
+				    tag = DEN
+				}
+			}
+			news_event = {
+			    hours = 4
+			    id = denmark_news.3
+		    }
+		}
+	}
+}
+
+country_event = { #Venstre Gains in Polls
+	id = denmark.16
+	title = denmark.16.t
+	desc = denmark.16.d
+	picture = denmark_ellemann_jensen_wins
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.16.o1
+		add_popularity = {
+			ideology = centrist
+			popularity = 0.03
+		}
+		hidden_effect = {
+			country_event = {
+				id = denmark.17
+				days = 10
+			}
+		}
+	}
+}
+
+country_event = { #DNSB Activists Harass Candidates in Greve
+	id = denmark.17
+	title = denmark.17.t
+	desc = denmark.17.d
+	picture = denmark_dnsb_friends_with_fremskridtspartiet
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.17.o1
+		add_political_power = -15
+	}
+}
+
+country_event = { #Svend Auken Wins Final Debate
+	id = denmark.18
+	title = denmark.18.t
+	desc = denmark.18.d
+	picture = denmark_svend_auken_debate
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = denmark.18.o1
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.02
+		}
+	}
+}
+	
+news_event = { #Fremskridtspartiet Wins the Election
+	id = denmark_news.1
+	title = denmark_news.1.t
+	desc = denmark_news.1.d
+	picture = denmark_fremskridtspartiet_wins_news
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes	
+
+	option = {
+		name = denmark_news.1.o1
+	}
+}
+
+news_event = { #Venstre Salvages the Government Coalition
+	id = denmark_news.2
+	title = denmark_news.2.t
+	desc = denmark_news.2.d
+	picture = denmark_venstre_wins_news
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes	
+
+	option = {
+		name = denmark_news.2.o1
+	}
+}
+
+news_event = { #The Workers' Majority Is Formed
+	id = denmark_news.3
+	title = denmark_news.3.t
+	desc = denmark_news.3.d
+	picture = denmark_sozi_wins_news
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes	
+
+	option = {
+		name = denmark_news.3.o1
+	}
+}

@@ -1,7 +1,7 @@
 ﻿capital = 37
 
 set_research_slots = 3
-set_stability = 0.9
+set_stability = 0.6
 set_war_support = 0.1
 set_technology = {
 	infantry_weapons = 1
@@ -42,6 +42,7 @@ if = {
 
 add_ideas = {
 	NATO_member
+	idea_denmark_margrethe_ii
 }
 
 set_politics = {
@@ -69,12 +70,122 @@ set_popularities = {
 set_convoys = 40
 
 create_country_leader = {
+	name = "Jonni Hansen"
+	desc = "POLITICS_JONNI_HANSEN_DESC"
+	picture = "Jonni_Hansen.dds"
+	ideology = ultranationalist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Povl Heinrich Riis-Knudsen"
+	desc = "POLITICS_POVL_HEINRICH_RIISKNUDSEN_DESC"
+	picture = "Povl_Heinrich_Riis_Knudsen.dds"
+	ideology = national_bolshevik_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Pia Kjærsgaard"
+	desc = "POLITICS_PIA_KJÆRSGAARD_DESC"
+	picture = "Pia_Kjærsgaard.dds"
+	ideology = reactionary_nationalist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Flemming Kofod-Svendsen"
+	desc = "POLITICS_FLEMMING_KOFODSVENDSEN_DESC"
+	picture = "Flemming_Kofod_Svendsen.dds"
+	ideology = national_conservative_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Poul Schlüter"
+	desc = "POLITICS_POUL_SCHLUTER_DESC"
+	picture = "Poul_Schlüter.dds"
+	ideology = moderate_conservative_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Uffe Ellemann-Jensen"
+	desc = "POLITICS_UFFE_ELLEMANN_JENSEN_DESC"
+	picture = "Uffe_Ellemann_Jensen.dds"
+	ideology = centrist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Niels Helveg Petersen"
 	desc = "POLITICS_NIELS_HELVEG_PETERSEN_DESC"
 	picture = "Niels_Helveg_Petersen.dds"
-	expire = "1965.1.1"
 	ideology = social_liberal_ideology
 	traits = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Svend Auken"
+	desc = "POLITICS_SVEND_AUKEN_DESC"
+	picture = "Svend_Auken.dds"
+	ideology = progressive_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gert Petersen"
+	desc = "POLITICS_GERT_PETERSEN_DESC"
+	picture = "Gert_Petersen.dds"
+	ideology = moderate_socialist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Collective Leadership"
+	desc = "POLITICS_COLLECTIVE_LEADERSHIP_DESC"
+	picture = "Collective_Leadership_Denmark.dds"
+	ideology = reformed_communist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Søren Søndergaard"
+	desc = "POLITICS_SØREN_SØNDERGAARD_DESC"
+	picture = "Søren_Søndergaard.dds"
+	ideology = revolutionary_socialist_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Klaus Riis"
+	desc = "POLITICS_KLAUS_RIIS_DESC"
+	picture = "Klaus_Riis.dds"
+	ideology = communist_ideology
+	traits = {
+		#
+	}
+}
+

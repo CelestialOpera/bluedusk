@@ -183,6 +183,13 @@ news_event = {
 				}
 			}
 			
+			DEN = {
+				country_event = {
+					id = denmark.1
+					days = 1
+				}
+			}
+			
 		}
 	}
 
