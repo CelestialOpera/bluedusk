@@ -1052,7 +1052,7 @@
 			ROOT = {
 				is_subject = no
 			}
-			has_country_flag = LEBED_ELECTED
+			has_country_flag = lebed_1992_president
 		}
 
 		completion_reward = {
@@ -1171,6 +1171,283 @@
 		prerequisite = { focus = SOV_praise_the_churchs_strength }
 		prerequisite = { focus = SOV_meet_with_corporate_bosses }
 		mutually_exclusive = { focus = SOV_all_union_cabinet }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	
+	####Andreyeva
+	
+	focus = {
+		id = SOV_president_andreyeva
+		#icon = GFX_focus_SOV_Ligachyov_Coup
+		x = 35
+		y = 0
+
+		cost = 0
+		
+		#bypass = {
+		#	date < 2010.01.01
+		#}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+			has_country_flag = andreyeva_1992_president
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_connections_in_the_kgb
+		#icon = GFX_focus_Money_Trail
+		x = -1
+		y = 1
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_president_andreyeva }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_CPSU_party_conference
+		#icon = GFX_focus_Money_Trail
+		x = 1
+		y = 1
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_president_andreyeva }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_override_the_party
+		#icon = GFX_focus_Money_Trail
+		x = 1
+		y = 2
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_CPSU_party_conference }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_agents_in_the_opposition
+		#icon = GFX_focus_Money_Trail
+		x = -1
+		y = 2
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_connections_in_the_kgb }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_address_the_congress
+		#icon = GFX_focus_Money_Trail
+		x = 0
+		y = 3
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_agents_in_the_opposition }
+		prerequisite = { focus = SOV_override_the_party }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_bannish_foreign_enterprise
+		#icon = GFX_focus_Money_Trail
+		x = -2
+		y = 4
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_address_the_congress }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_abandon_gorbachevs_congress
+		#icon = GFX_focus_Money_Trail
+		x = 0
+		y = 4
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_address_the_congress }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_there_is_no_opposition
+		#icon = GFX_focus_Money_Trail
+		x = 2
+		y = 4
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_address_the_congress }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_madame_stalin
+		#icon = GFX_focus_Money_Trail
+		x = -3
+		y = 5
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_there_is_no_opposition }
+		prerequisite = { focus = SOV_abandon_gorbachevs_congress }
+		prerequisite = { focus = SOV_bannish_foreign_enterprise }
+		mutually_exclusive = { focus = SOV_sideline_the_oldman }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {
+			ROOT = {
+				is_subject = no
+			}
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = SOV_sideline_the_oldman
+		#icon = GFX_focus_Money_Trail
+		x = 3
+		y = 5
+		relative_position_id = SOV_president_andreyeva
+
+		cost = 7
+		prerequisite = { focus = SOV_there_is_no_opposition }
+		prerequisite = { focus = SOV_abandon_gorbachevs_congress }
+		prerequisite = { focus = SOV_bannish_foreign_enterprise }
+		mutually_exclusive = { focus = SOV_madame_stalin }
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
